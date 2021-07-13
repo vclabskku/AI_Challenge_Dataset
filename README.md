@@ -14,3 +14,32 @@
 * [HANDCRAFT](HANDCRAFT/) 공개된 초등/중등 서술형 수학 문제를 가공하여 만든 문제
 
 기존 영문 데이터셋은 단순 사칙연산만을 다루고 있으며, 공개된 초등/중등 서술형 수학 문제를 가공하여 만든 데이터셋에서 다양한 유형의 문제를 확인할 수 있습니다.
+
+### 데이터셋 구성
+
+각 데이터셋은 problem과 answer마다 나누어져 json형식으로 저장되어있습니다.
+먼저 Problem파일들의 구조는 다음과 같습니다.
+```
+{
+	Problem-Number(str) : {
+		"question": Problem-State(str)
+	},
+	...
+}
+```
+
+각 문항별로 번호화 그에 해당하는 지문이 question에 들어있습니다.
+
+Answer파일의 구조는 다음과 같습니다.
+```
+{
+	Answer-Number(str) : {
+		"answer": value(str, int),
+		"equation": Python-Code,
+		"QL": List[int]
+	},
+	...
+}
+```
+문제 번호와 동일한 번호에 해당 정답에 관한 정보들이 있습니다.
+"answer" key에는 그 문항의 결과 답안이 있으며, "equation" key에는 결과 답안을 생성하는 Python code가 있습니다. "QL"은 문제를 파싱하여 생성한 Quantity list입니다.
