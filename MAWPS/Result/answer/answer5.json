@@ -1,0 +1,412 @@
+{
+    "410": {
+        "answer": 36,
+        "equation": "result=(QL[2]*(QL[0]-QL[1]))",
+        "QL": [14, 5, 4]
+    },
+    "411": {
+        "answer": 24,
+        "equation": "result=(QL[1]*(QL[0]-QL[2]))",
+        "QL": [12, 3, 4]
+    },
+    "412": {
+        "answer": 35,
+        "equation": "result=(QL[1]-QL[0])",
+        "QL": [22, 57]
+    },
+    "413": {
+        "answer": 15,
+        "equation": "result=QL[0]+QL[1]",
+        "QL": [6, 9]
+    },
+    "414": {
+        "answer": 1.25,
+        "equation": "result=(QL[1]/QL[0])",
+        "QL": [3, 3.75]
+    },
+    "415": {
+        "answer": "7",
+        "equation": "result=QL[0]-QL[1]",
+        "QL": [9, 2]
+    },
+    "416": {
+        "answer": 13,
+        "equation": "result=(QL[0]-QL[1])",
+        "QL": [45, 32]
+
+    },
+    "417": {
+        "answer": 85,
+        "equation": "result=(QL[0]+QL[1])",
+        "QL": [76, 9]
+    },
+    "418": {
+        "answer": 2,
+        "equation": "result=(QL[0]-QL[1])",
+        "QL": [5, 3]
+    },
+    "419": {
+        "answer": 2,
+        "equation": "result=(QL[0]-QL[1])"
+    },
+    "420": {
+        "answer": 198,
+        "equation": "result=QL[1]*QL[0]",
+        "QL": [33, 6]
+    },
+    "421": {
+        "answer": 14,
+        "equation": "result=((QL[0]+QL[1])-QL[2])",
+        "QL": [26, 36, 48]
+    },
+    "422": {
+        "answer": 242.17,
+        "equation": "result=QL[1]/(const1-QL[0]/const100)",
+        "QL": [10, 217.95]
+    },
+    "423": {
+        "answer": 11,
+        "equation": "result=(QL[0]-QL[1])",
+        "QL": [17, 6]
+    },
+    "424": {
+        "answer": 0.26,
+        "equation": "result=QL[1]-QL[0]-QL[2]",
+        "QL": [8.77, 20, 10.97]
+    },
+    "425": {
+        "answer": 3,
+        "equation": "result=(QL[0]/QL[1])",
+        "QL": [24, 8, 1]
+    },
+    "426": {
+        "answer": 15,
+        "equation": "result=(QL[0]+QL[1])",
+        "QL": [6, 9]
+    },
+    "427": {
+        "answer": 4.3,
+        "equation": "result=QL[0]-QL[1]",
+        "QL": [7.6, 3.3]
+    },
+    "428": {
+        "answer": "469",
+        "equation": "result=QL[0]-QL[1]",
+        "QL": [864, 395]
+    },
+    "429": {
+        "answer": 0.03,
+        "equation": "result=QL[1]/(QL[0]/QL[2])",
+        "QL": [500, 7, 2]
+    },
+    "430": {
+        "answer": 3,
+        "equation": "result=((QL[0]+QL[1])/QL[0])",
+        "QL": [3, 6, 3]
+    },
+    "431": {
+        "answer": 32,
+        "equation": "result=QL[0]-QL[1]",
+        "QL": [64, 32]
+    },
+    "432": {
+        "answer": 2,
+        "equation": "result=((QL[0]-QL[1])/QL[2])",
+        "QL": [24, 10, 7]
+    },
+    "433": {
+        "answer": 700,
+        "equation": "result=(QL[0]+QL[1])",
+        "QL": [425, 275]
+    },
+    "434": {
+        "answer": 47,
+        "equation": "result=(QL[0]+QL[1])",
+        "QL": [40, 7]
+    },
+    "435": {
+        "answer": 4,
+        "equation": "result=(QL[0]-QL[1])",
+        "QL": [41, 37]
+    },
+    "436": {
+        "answer": "4",
+        "equation": "result=QL[0]-QL[2]",
+        "QL": [7, 4, 3]
+    },
+    "437": {
+        "answer": 15,
+        "equation": "result=QL[1]+QL[2]",
+        "QL": [1, 9, 6]
+    },
+    "438": {
+        "answer": 690,
+        "equation": "result=(QL[0]+QL[1])",
+        "QL": [403, 287]
+    },
+    "439": {
+        "answer": "217",
+        "equation": "result=QL[0]+QL[2]",
+        "QL": [112, 119, 105]
+    },
+    "440": {
+        "answer": 29.41,
+        "equation": "result=QL[2]/(QL[0]-QL[1])",
+        "QL": [0.5, 0.16, 10]
+    },
+    "441": {
+        "answer": 106491,
+        "equation": "result=QL[0]+QL[1]",
+        "QL": [90171, 16320]
+    },
+    "442": {
+        "answer": 1,
+        "equation": "result=(QL[2]-QL[0]-QL[1])",
+        "QL": [5, 4, 10]
+    },
+    "443": {
+        "answer": 25,
+        "equation": "result=((QL[0]+QL[2])-QL[1])",
+        "QL": [14, 6, 17]
+    },
+    "444": {
+        "answer": 20000,
+        "equation": "result=QL[0]/(QL[1]/const100))",
+        "QL": [16000, 80]
+    },
+    "445": {
+        "answer": 63,
+        "equation": "result=(QL[0]+QL[1])",
+        "QL": [28, 35]
+    },
+    "446": {
+        "answer": 21,
+        "equation": "result=QL[0]+QL[1]+QL[2]",
+        "QL": [2, 15, 4]
+    },
+    "447": {
+        "answer": 4,
+        "equation": "result=((QL[1]+QL[2])/QL[0])",
+        "QL": [3, 3, 9]
+    },
+    "448": {
+        "answer": 17,
+        "equation": "result=(QL[0]-QL[1])",
+        "QL": [42, 25]
+    },
+    "449": {
+        "answer": 154,
+        "equation": "result=(QL[0]*(QL[1]+QL[2]))",
+        "QL": [7, 13, 9]
+    },
+    "450": {
+        "answer": 42.5,
+        "equation": "result=QL[1]/(const1-QL[0]/const100)",
+        "QL": [80, 8.5]
+    },
+    "451": {
+        "answer": "7",
+        "equation": "result=QL[0]-QL[1]",
+        "QL": [33, 26]
+    },
+    "452": {
+        "answer": 60,
+        "equation": "result=(QL[0]*(QL[1]+QL[2]))",
+        "QL": [5, 7, 5]
+    },
+    "453": {
+        "answer": 8243,
+        "equation": "result=(QL[0]+QL[1])",
+        "QL": [5256, 2987]
+    },
+    "454": {
+        "answer": 0.95,
+        "equation": "result=QL[0]+QL[1]+QL[2]",
+        "QL": [0.125, 0.125, 0.7]
+    },
+    "455": {
+        "answer": 40,
+        "equation": "result=(QL[0]*(QL[1]+QL[2]))",
+        "QL": [5, 5, 3]
+    },
+    "456": {
+        "answer": 8,
+        "equation": "result=((QL[1]+QL[2])/QL[0])",
+        "QL": [9, 17, 55]
+    },
+    "457": {
+        "answer": 4764,
+        "equation": "result=(QL[0]*QL[1])",
+        "QL": [397, 12, 17]
+    },
+    "458": {
+        "answer": 10.33,
+        "equation": "result=QL[0]-QL[1]",
+        "QL": [11.16, 0.83]
+    },
+    "459": {
+        "answer": 34,
+        "equation": "result=(QL[0]-QL[1])",
+        "QL": [78, 44]
+    },
+    "460": {
+        "answer": 62,
+        "equation": "result=((QL[0]+QL[2])-QL[1])",
+        "QL": [47, 25, 40]
+    },
+    "461": {
+        "answer": "0.25",
+        "equation": "result=QL[1]+QL[2]",
+        "QL": [2, 0.125, 0.125]
+    },
+    "462": {
+        "answer": 23.86,
+        "equation": "result=(QL[0]*QL[1])+QL[2]",
+        "QL": [4, 4.45, 6.06]
+    },
+    "463": {
+        "answer": "109",
+        "equation": "result=QL[0]+QL[1]+QL[2]",
+        "QL": [47, 37, 25]
+    },
+    "464": {
+        "answer": 8,
+        "equation": "result=(QL[1]*QL[0])",
+        "QL": [4, 2]
+    },
+    "465": {
+        "answer": 7,
+        "equation": "result=((QL[0]-QL[1])/QL[2])",
+        "QL": [104, 41, 9]
+    },
+    "466": {
+        "answer": 21,
+        "equation": "result=(QL[2]*(QL[0]+QL[1]))",
+        "QL": [2, 5, 3]
+    },
+    "467": {
+        "answer": 1750,
+        "equation": "result=QL[1]*QL[0]",
+        "QL": [10, 175]
+    },
+    "468": {
+        "answer": 15,
+        "equation": "result=(QL[0]+QL[1]+QL[2])",
+        "QL": [3, 2, 10]
+    },
+    "469": {
+        "answer": 11,
+        "equation": "result=(QL[0]+QL[1])",
+        "QL": [8, 3]
+    },
+    "470": {
+        "answer": 10,
+        "equation": "result=QL[0]+QL[1]",
+        "QL": [4, 6]
+    },
+    "471": {
+        "answer": 20,
+        "equation": "result=(QL[0]*(QL[1]-QL[2]))",
+        "QL": [4, 8, 3]
+    },
+    "472": {
+        "answer": 5,
+        "equation": "result=(QL[0]-QL[2])",
+        "QL": [75, 17, 70]
+    },
+    "473": {
+        "answer": "41",
+        "equation": "result=QL[0]+QL[1]",
+        "QL": [20, 21]
+    },
+    "474": {
+        "answer": 5,
+        "equation": "result=((QL[0]+QL[1])/QL[2])",
+        "QL": [31, 4, 7]
+    },
+    "475": {
+        "answer": 49,
+        "equation": "result=(QL[0]*(QL[1]+QL[2]))",
+        "QL": [7, 3, 4]
+    },
+    "476": {
+        "answer": "48",
+        "equation": "result=QL[0]+QL[1]",
+        "QL": [10, 38]
+    },
+    "477": {
+        "answer": 48781,
+        "equation": "result=QL[0]+QL[1]",
+        "QL": [48097, 684]
+    },
+    "478": {
+        "answer": 21,
+        "equation": "result=(QL[0]*QL[1])",
+        "QL": [3, 7]
+    },
+    "479": {
+        "answer": 12,
+        "equation": "result=(QL[2]*(QL[0]-QL[1]))",
+        "QL": [10, 8, 6]
+    },
+    "480": {
+        "answer": 282,
+        "equation": "result=(QL[0]+QL[3]*QL[1])*QL[2]",
+        "QL": [50, 0.2, 5, 32]
+    },
+    "481": {
+        "answer": 7,
+        "equation": "result=((QL[0]+QL[1])/QL[2])",
+        "QL": [12, 44, 8]
+    },
+    "482": {
+        "answer": "16",
+        "equation": "result=QL[0]+QL[1]+QL[2]",
+        "QL": [7, 5, 4]
+    },
+    "483": {
+        "answer": 3426,
+        "equation": "result=QL[2]QL[3]-QL[QL[3]]QL[1]",
+        "QL": [1426, 2000]
+    },
+    "484": {
+        "answer": 7,
+        "equation": "result=(QL[1]-QL[2])/QL[0]",
+        "QL": [9, 79, 16]
+    },
+    "485": {
+        "answer": 48,
+        "equation": "result=(QL[0]*(QL[1]+QL[2]))",
+        "QL": [8, 3, 3]
+    },
+    "486": {
+        "answer": "12",
+        "equation": "result=QL[0]-QL[2]",
+        "QL": [34, 49, 22]
+    },
+    "487": {
+        "answer": 215,
+        "equation": "result=QL[0]+QL[1]",
+        "QL": [115, 100]
+    },
+    "488": {
+        "answer": 4217,
+        "equation": "result=QL[0]+QL[1]+QL[2]",
+        "QL": [25, 4167, 25]
+    },
+    "489": {
+        "answer": 88,
+        "equation": "result=(QL[0]*QL[1])",
+        "QL": [11, 8]
+    },
+    "490": {
+        "answer": 6,
+        "equation": "result=((QL[0]+QL[1])/QL[2])",
+        "QL": [21, 15, 6]
+    },
+    "491": {
+        "answer": "6",
+        "equation": "result=QL[0]-QL[1]",
+        "QL": [8, 2]
+    }
+}
