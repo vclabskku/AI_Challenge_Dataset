@@ -1,0 +1,653 @@
+﻿{
+    "738": {
+        "answer": 5,
+        "equation": "X=X=((QL[0]-QL[1])/QL[2])"
+    },
+    "739": {
+        "answer": 64,
+        "equation": "X=(QL[0]-QL[1])"
+    },
+    "740": {
+        "answer": 94,
+        "equation": "X=(QL[0]/QL[1])"
+    },
+    "741": {
+        "answer": 15,
+        "equation": "x=(QL[2]+QL[1])/QL[0]"
+    },
+    "742": {
+        "answer": 9,
+        "equation": "X=((QL[0]+QL[1])/const1000)"
+    },
+    "743": {
+        "answer": "25.62",
+        "equation": "X=QL[0]+QL[1]+QL[2]"
+    },
+    "744": {
+        "answer": 3,
+        "equation": "X=((QL[0]-QL[1])/QL[2])"
+    },
+    "745": {
+        "answer": 0.83,
+        "equation": "x=QL[0]+QL[1]+QL[2]"
+    },
+    "746": {
+        "answer": 25,
+        "equation": "X=(QL[0]/QL[1])"
+    },
+    "747": {
+        "answer": "11",
+        "equation": "X=QL[0]+QL[1]"
+    },
+    "748": {
+        "answer": 2,
+        "equation": "X=((QL[0]+QL[1])/QL[2])"
+    },
+    "749": {
+        "answer": 2,
+        "equation": "x=((QL[0]+QL[1])+QL[2])-(QL[3]+QL[4])"
+    },
+    "750": {
+        "answer": 310,
+        "equation": "X=(QL[0]-QL[1])"
+    },
+    "751": {
+        "answer": 18,
+        "equation": "X=(QL[0]*(QL[1]-QL[2]))"
+    },
+    "752": {
+        "answer": 4,
+        "equation": "X=((QL[0]-QL[1])/QL[2])"
+    },
+    "753": {
+        "answer": 24,
+        "equation": "X=(QL[0]*QL[1])"
+    },
+    "754": {
+        "answer": 4,
+        "equation": "x=(QL[2]-QL[1])/(QL[1]-QL[0])"
+    },
+    "755": {
+        "answer": 60,
+        "equation": "X=((QL[0]+QL[2])-QL[1])"
+    },
+    "756": {
+        "answer": 134,
+        "equation": "x=QL[0]*QL[1]"
+    },
+    "757": {
+        "answer": 18,
+        "equation": "X=(QL[0]-QL[1])"
+    },
+    "758": {
+        "answer": 58,
+        "equation": "X=((QL[0]+QL[2])-QL[1])"
+    },
+    "759": {
+        "answer": 3,
+        "equation": "X=((QL[0]-QL[1])/QL[2])"
+    },
+
+
+    "760": {
+        "answer": 3,
+        "equation": "x=(QL[2]-QL[1])/QL[0]"
+    },
+    "761": {
+        "answer": 43,
+        "equation": "X=(QL[0]+QL[1])"
+    },
+    "762": {
+        "answer": 30,
+        "equation": "X=((QL[0]+QL[1])-QL[2])"
+    },
+    "763": {
+        "answer": 6,
+        "equation": "X=((QL[0]-QL[1])/QL[2])"
+    },
+    "764": {
+        "answer": 3,
+        "equation": "X=((QL[1]+QL[2])/QL[0])"
+    },
+    "765": {
+        "answer": "5935",
+        "equation": "X=QL[1]-QL[0]"
+    },
+    "766": {
+        "answer": 273,
+        "equation": "X=(QL[0]-QL[1])"
+    },
+    "767": {
+        "answer": 24,
+        "equation": "X=(QL[1]*(QL[0]-QL[2]))"
+    },
+    "768": {
+        "answer": 37,
+        "equation": "X=((QL[1]+QL[3])-QL[2])"
+    },
+    "769": {
+        "answer": 9,
+        "equation": "X=((QL[0]-QL[1])/QL[2])"
+    },
+    "770": {
+        "answer": 22,
+        "equation": "x=QL[0]-QL[1]"
+    },
+    "771": {
+        "answer": 18,
+        "equation": "X=(QL[1]*QL[2])"
+    },
+    "772": {
+        "answer": 35.0,
+        "equation": "x=5*7"
+    },
+    "773": {
+        "answer": 42,
+        "equation": "X=(QL[2]*(QL[0]+QL[1]))"
+    },
+    "774": {
+        "answer": 4,
+        "equation": "X=(QL[1]/QL[0])"
+    },
+    "775": {
+        "answer": 3.67,
+        "equation": "x=QL[0]-QL[1]"
+    },
+    "776": {
+        "answer": "42",
+        "equation": "X=QL[0]+QL[1]"
+    },
+    "777": {
+        "answer": 8,
+        "equation": "X=(QL[0]+QL[1])+QL[2]"
+    },
+    "778": {
+        "answer": "2515",
+        "equation": "X=QL[0]-QL[1]"
+    },
+    "779": {
+        "answer": 61,
+        "equation": "X=((QL[0]+QL[4])-QL[3])"
+    },
+    "780": {
+        "answer": 70,
+        "equation": "X=(QL[2]*(QL[0]+QL[1]))"
+    },
+    "781": {
+        "answer": 72,
+        "equation": "X=(QL[2]*(QL[0]+QL[1]))"
+    },
+    "782": {
+        "answer": 5,
+        "equation": "X=((QL[0]-QL[1])/QL[2])"
+    },
+    "783": {
+        "answer": 47,
+        "equation": "X=((QL[0]+QL[2])-QL[1])"
+    },
+    "784": {
+        "answer": 5,
+        "equation": "X=(QL[0]-QL[2])"
+    },
+    "785": {
+        "answer": "0.6",
+        "equation": "X=QL[0]+QL[1]"
+    },
+    "786": {
+        "answer": 70,
+        "equation": "X=((QL[0]+QL[2])-QL[1])"
+    },
+    "787": {
+        "answer": "58",
+        "equation": "X=QL[1]+QL[0]"
+    },
+    "788": {
+        "answer": "9.8",
+        "equation": "X=QL[0]+QL[1]"
+    },
+    "789": {
+        "answer": 92,
+        "equation": "X=(QL[0]-QL[1])"
+    },
+    "790": {
+        "answer": 33,
+        "equation": "X=((QL[1]+QL[3])-QL[2])"
+    },
+    "791": {
+        "answer": 63,
+        "equation": "X=(QL[0]*(QL[1]+QL[2]))"
+    },
+    "792": {
+        "answer": 101,
+        "equation": "X=(QL[0]+QL[1])"
+    },
+    "793": {
+        "answer": 0.65,
+        "equation": "x=QL[0]+QL[1]+QL[2]"
+    },
+    "794": {
+        "answer": 0.33,
+        "equation": "x=QL[0]*QL[1]"
+    },
+    "796": {
+        "answer": 64,
+        "equation": "X=(QL[0]*(QL[1]+QL[2]))"
+    },
+    "797": {
+        "answer": "15",
+        "equation": "X=QL[0]+QL[1]"
+    },
+    "798": {
+        "answer": 40,
+        "equation": "X=(QL[0]*(QL[2]+QL[1]))"
+    },
+    "799": {
+        "answer": 49,
+        "equation": "X=((QL[0]+QL[2])-QL[1])"
+    },
+    "800": {
+        "answer": 63,
+        "equation": "X=(QL[0]*QL[1])"
+    },
+    "801": {
+        "answer": 28,
+        "equation": "x=QL[0]*QL[1]"
+    },
+    "802": {
+        "answer": 9.43,
+        "equation": "x=QL[0]+QL[1]"
+    },
+    "803": {
+        "answer": "1970",
+        "equation": "X=QL[0]+QL[1]+QL[2]+QL[3]"
+    },
+    "804": {
+        "answer": 63,
+        "equation": "X=(QL[2]*(QL[0]-QL[1]))"
+    },
+    "805": {
+        "answer": 53,
+        "equation": "X=(QL[1]-QL[0])"
+    },
+    "806": {
+        "answer": 488,
+        "equation": "x=QL[2]*QL[1]"
+    },
+    "807": {
+        "answer": 95,
+        "equation": "X=(QL[0]+QL[1])"
+    },
+    "808": {
+        "answer": "21",
+        "equation": "X=QL[1]-QL[0]"
+    },
+    "809": {
+        "answer": 0.72,
+        "equation": "X=(QL[1]-QL[0])"
+    },
+    "810": {
+        "answer": 45,
+        "equation": "X=(QL[0]*(QL[1]-QL[2]))"
+    },
+    "811": {
+        "answer": 0.75,
+        "equation": "x=QL[0]+QL[1]+QL[2]"
+    },
+    "812": {
+        "answer": 4,
+        "equation": "x=QL[0]*QL[1] / const100"
+    },
+    "813": {
+        "answer": 80,
+        "equation": "X=(QL[0]/QL[1])"
+    },
+    "814": {
+        "answer": 15,
+        "equation": "X=(QL[0]+QL[1])"
+    },
+    "815": {
+        "answer": 23,
+        "equation": "X=((QL[1]+QL[3])-QL[4])"
+    },
+    "816": {
+        "answer": 64,
+        "equation": "X=(QL[0]+QL[1])"
+    },
+    "817": {
+        "answer": 18,
+        "equation": "X=(QL[0]*(QL[1]-QL[2]))"
+    },
+    "818": {
+        "answer": 32,
+        "equation": "X=(QL[0]/QL[2])"
+    },
+    "819": {
+        "answer": 36.78,
+        "equation": "x=(QL[0]*(QL[1] * const100 + QL[2]))+QL[3]+(QL[4] * const100 + QL[5])"
+    },
+    "820": {
+        "answer": 33.56,
+        "equation": "x=QL[0]+QL[1]+QL[2]"
+    },
+    "821": {
+        "answer": 43,
+        "equation": "X=(QL[0]+QL[1])"
+    },
+    "822": {
+        "answer": 3,
+        "equation": "X=(QL[0]/(QL[2]))"
+    },
+    "823": {
+        "answer": 42,
+        "equation": "x=QL[1]-QL[0]"
+    },
+    "824": {
+        "answer": 688,
+        "equation": "x=QL[0]-QL[1]"
+    },
+    "825": {
+        "answer": 28,
+        "equation": "X=((QL[0]+QL[2])-QL[1])"
+    },
+    "826": {
+        "answer": 25,
+        "equation": "X=(QL[0]*QL[1])"
+    },
+    "827": {
+        "answer": "0.1",
+        "equation": "X=QL[0]-QL[1]"
+    },
+    "828": {
+        "answer": 0.63,
+        "equation": "X=QL[0]+QL[1]"
+    },
+    "829": {
+        "answer": "8",
+        "equation": "X=QL[0]-QL[1]"
+    },
+    "830": {
+        "answer": "18",
+        "equation": "X=QL[0]-QL[1]"
+    },
+    "831": {
+        "answer": 19,
+        "equation": "X=((QL[0]+QL[1])-QL[2])"
+    },
+
+    "833": {
+        "answer": 6,
+        "equation": "X=(QL[1]-QL[0])"
+    },
+    "834": {
+        "answer": 4,
+        "equation": "x=(QL[2]+QL[1])/QL[0]"
+    },
+    "835": {
+        "answer": 9,
+        "equation": "X=((QL[0]+QL[1])/QL[2])"
+    },
+    "836": {
+        "answer": "60",
+        "equation": "X=QL[0]+QL[2]"
+    },
+    "837": {
+        "answer": "11",
+        "equation": "X=QL[0]+QL[2]"
+    },
+    "838": {
+        "answer": 0,
+        "equation": "x=(QL[0]-QL[1])+QL[2]"
+    },
+    "839": {
+        "answer": 12,
+        "equation": "x=QL[0]+QL[1]"
+    },
+    "840": {
+        "answer": "96",
+        "equation": "X=QL[0]+QL[1]"
+    },
+    "841": {
+        "answer": 3,
+        "equation": "X=(QL[1]/QL[0])"
+    },
+    "842": {
+        "answer": 120,
+        "equation": "X=(QL[0]*QL[1]*const2)"
+    },
+    "843": {
+        "answer": 33,
+        "equation": "x=QL[0]-QL[1]"
+    },
+    "844": {
+        "answer": 55,
+        "equation": "x=(QL[0]/QL[1])/const2"
+    },
+    "845": {
+        "answer": 14,
+        "equation": "x=(QL[1]-QL[0])*const2"
+    },
+    "846": {
+        "answer": 72,
+        "equation": "X=(QL[0]*(QL[1]-QL[2]))"
+    },
+    "847": {
+        "answer": 79,
+        "equation": "X=((QL[0]+QL[2])-QL[1])"
+    },
+    "848": {
+        "answer": 2750,
+        "equation": "x=(QL[5]-QL[1])/QL[4] + QL[2]"
+    },
+    "849": {
+        "answer": 5,
+        "equation": "X=(QL[0]/QL[1])"
+    },
+    "850": {
+        "answer": 57,
+        "equation": "X=(QL[0]+QL[1])"
+    },
+    "851": {
+        "answer": 22,
+        "equation": "X=(QL[1]-QL[0])"
+    },
+    "852": {
+        "answer": 1,
+        "equation": "x=QL[0]/QL[1] + QL[2]/QL[3]"
+    },
+    "853": {
+        "answer": 77,
+        "equation": "X=QL[1]-QL[0]"
+    },
+    "854": {
+        "answer": 4072,
+        "equation": "x=QL[1]/(QL[3]-QL[2])"
+    },
+    "855": {
+        "answer": 12,
+        "equation": "x=QL[1]-QL[0]"
+    },
+    "856": {
+        "answer": "12",
+        "equation": "X=QL[0]+QL[1]"
+    },
+    "857": {
+        "answer": "141.54",
+        "equation": "X=QL[0]+QL[1]"
+    },
+    "858": {
+        "answer": 1.49,
+        "equation": "x=QL[0] + QL[1] + QL[2]"
+    },
+    "859": {
+        "answer": 8,
+        "equation": "X=(QL[0]/QL[2])"
+    },
+    "860": {
+        "answer": 90,
+        "equation": "x=QL[5]*const5-(((QL[1]+QL[2])+QL[3])+QL[4])"
+    },
+    "861": {
+        "answer": "40,000",
+        "equation": "X=QL[0]-QL[1]"
+    },
+    "862": {
+        "answer": "342",
+        "equation": "X=(QL[0]-QL[1])/QL[2]"
+    },
+    "863": {
+        "answer": 32,
+        "equation": "X=(QL[0]-QL[1])"
+    },
+    "864": {
+        "answer": 14760.87,
+        "equation": "x=QL[0]/(const1-(QL[1]/const100))"
+    },
+    "865": {
+        "answer": 1.25,
+        "equation": "x=QL[1]/QL[0]"
+    },
+    "866": {
+        "answer": 79,
+        "equation": "X=(QL[0]+QL[1])"
+    },
+    "867": {
+        "answer": 27,
+        "equation": "X=((QL[0]+QL[2])-QL[1])"
+    },
+    "868": {
+        "answer": "3220",
+        "equation": "X=QL[0]-QL[1]"
+    },
+    "869": {
+        "answer": 33,
+        "equation": "x=QL[1]-QL[0]"
+    },
+    "870": {
+        "answer": 25,
+        "equation": "X=(QL[0]+QL[1])"
+    },
+    "871": {
+        "answer": 34,
+        "equation": "X=((QL[0]+QL[2])-QL[1])"
+    },
+    "872": {
+        "answer": 1705,
+        "equation": "x=QL[1]+QL[0]"
+    },
+    "873": {
+        "answer": 55,
+        "equation": "x=(QL[2]-QL[1]*QL[4])/QL[0]"
+    },
+    "874": {
+        "answer": 105,
+        "equation": "X=(QL[0]+QL[1])"
+    },
+    "875": {
+        "answer": "523",
+        "equation": "X=QL[1]-QL[0]"
+    },
+    "876": {
+        "answer": 180,
+        "equation": "x=QL[0]*QL[1]"
+    },
+    "877": {
+        "answer": 15737.5,
+        "equation": "x=QL[0]/(const1-(QL[1]/const100))"
+    },
+    "878": {
+        "answer": 12,
+        "equation": "x=(QL[0] - QL[2])"
+    },
+    "879": {
+        "answer": 2,
+        "equation": "X=((QL[0]-QL[1])/QL[2])"
+    },
+    "880": {
+        "answer": 72,
+        "equation": "X=(QL[1]*(QL[2]+QL[3]))"
+    },
+    "881": {
+        "answer": 30,
+        "equation": "X=(QL[2]*(QL[0]+QL[1]))"
+    },
+    "882": {
+        "answer": 108,
+        "equation": "x=QL[1]*QL[0]"
+    },
+    "883": {
+        "answer": 35,
+        "equation": "X=((QL[0]+QL[1])-QL[2])"
+    },
+    "884": {
+        "answer": 32,
+        "equation": "X=(QL[0]*(QL[1]+QL[2]))"
+    },
+    "885": {
+        "answer": 426,
+        "equation": "x=QL[0]*QL[1]"
+    },
+    "886": {
+        "answer": 153,
+        "equation": "x=(QL[3]-QL[2]*QL[0])/QL[1]"
+    },
+    "887": {
+        "answer": 12,
+        "equation": "x=QL[1]*QL[0]"
+    },
+    "888": {
+        "answer": 10,
+        "equation": "x=QL[0]/QL[1]"
+    },
+    "889": {
+        "answer": 25.11,
+        "equation": "x=(const1-QL[1]/const100)*QL[0]"
+    },
+    "890": {
+        "answer": 92,
+        "equation": "x=QL[7]*QL[0]-(QL[3]+QL[4]+QL[5]+QL[6])"    
+    },
+    "891": {
+        "answer": 25,
+        "equation": "X=(QL[1]*QL[2])"
+    },
+    "892": {
+        "answer": "36",
+        "equation": "X=QL[0]-QL[2]"
+    },
+    "893": {
+        "answer": 135,
+        "equation": "x=QL[0]*const3"
+    },
+    "894": {
+        "answer": 1000,
+        "equation": "x=QL[0]/(QL[2]-QL[1])"
+    },
+    "895": {
+        "answer": 150,
+        "equation": "x=(QL[0]-QL[2])/(QL[3]-QL[1])"
+    },
+    "896": {
+        "answer": "15.1",
+        "equation": "X=QL[0]+QL[1]"
+    },
+    "897": {
+        "answer": 60,
+        "equation": "X=(QL[0]*(QL[1]+QL[2]))"
+    },
+    "898": {
+        "answer": 6,
+        "equation": "x=QL[1]/(QL[0]-const1)"
+    },
+    "899": {
+        "answer": 1,
+        "equation": "X=((QL[0]+QL[1])-QL[2])"
+    },
+    "900": {
+        "answer": 24,
+        "equation": "X=((QL[0]+QL[2])-QL[1])"
+    },
+    "901": {
+        "answer": 8,
+        "equation": "X=((QL[0]+QL[1])/QL[2])"
+    }
+}
