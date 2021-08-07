@@ -44,4 +44,7 @@ Answer파일의 구조는 다음과 같습니다.
 문제 번호와 동일한 번호에 해당 정답에 관한 정보들이 있습니다.
 "answer" key에는 그 문항의 결과 답안이 있으며, "equation" key에는 결과 답안을 생성하는 Python code가 있습니다. "QL"은 문제를 파싱하여 생성한 Quantity list입니다.
 
-초등/중등 수학 문제에서 직접 가공하여 만든 데이터셋([HANDCRAF/](HANDCRAFT/))은 현재 xlsx파일로 지원되고 있으나, 추후에 json파일로 통합하는 script를 제공하겠습니다.
+
+~~초등/중등 수학 문제에서 직접 가공하여 만든 데이터셋([HANDCRAF/](HANDCRAFT/))은 현재 xlsx파일로 지원되고 있으나, 추후에 json파일로 통합하는 script를 제공하겠습니다.~~
+
+초등/중등 수학 문제에서 직접 가공하여 만든 데이터셋([HANDCRAF/](HANDCRAFT/))은 현재 xlsx파일로 지원되고 있으나, json형태로 변환시켜주는 [xlsx2json.py](HANDCRAFT/Result/xlsx2json.py)를 사용하여 json형태로 변환할 수 있습니다.
