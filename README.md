@@ -47,6 +47,9 @@ Answer파일의 구조는 다음과 같습니다.
 ~~MAWPS데이터셋은 총 2000문항을 지원하는 것이 목표입니다. 현재 약 1200여개 이상의 문항이 지원되고 있습니다.~~
 MAWPS데이터셋은 총 2000문항을 지원되고 있습니다.
 
+모든 번호의 문항들이 한 파일로 merge되어 있는 버전을 [MAWPS/Result/merged](MAWPS/Result/merged/)에 업로드했습니다.
+또한 merge에 사용되는 스크립트 answer_merge.py와 problem_merge.py가 있으니 필요에 따라 사용하여 다른 split의 데이터셋을 만들 수 있습니다.
+
 
 
 ### 데이터셋 구성 (HANDCRAFT)
