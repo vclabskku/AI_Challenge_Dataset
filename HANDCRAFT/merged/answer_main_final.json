@@ -1,0 +1,5283 @@
+﻿{
+    "0": {
+        "answer": 14,
+        "equation": "result = QL[0] + QL[1]",
+        "QL": [
+            9,
+            5
+        ]
+    },
+    "1": {
+        "answer": 10000,
+        "equation": "var0 = const0\nfor var1 in range(QL[0], QL[1] + const1):\n    if var1 % const2 == const1:\n        var0 += var1\n\nresult = var0",
+        "QL": [
+            1,
+            200
+        ]
+    },
+    "2": {
+        "answer": 600,
+        "equation": "result = QL[1] * QL[2]",
+        "QL": [
+            1,
+            100,
+            6
+        ]
+    },
+    "3": {
+        "answer": 79,
+        "equation": "var0 = QL[0] + QL[1] + QL[2]\nvar1 = QL[4] * (QL[5]-const3)\nresult = (var0+var1) / QL[5]",
+        "QL": [
+            94,
+            82,
+            88,
+            2,
+            78,
+            30
+        ]
+    },
+    "4": {
+        "answer": 8,
+        "equation": "result = QL[0] - (QL[2] + const1)",
+        "QL": [
+            20,
+            1,
+            11
+        ]
+    },
+    "5": {
+        "answer": 3,
+        "equation": "result = (QL[0] + QL[1])/const2",
+        "QL": [
+            2,
+            4
+        ]
+    },
+    "6": {
+        "answer": 5,
+        "equation": "result = QL[0] - QL[2] + const1",
+        "QL": [
+            9,
+            1,
+            5
+        ]
+    },
+    "7": {
+        "answer": 6,
+        "equation": "var0 = list(range(QL[1]+QL[0]-QL[1]*QL[2]-const1))\nresult = len(list(itertools.combinations(var0, (QL[0]-QL[1]*QL[2]))))",
+        "QL": [
+            7,
+            2,
+            1
+        ]
+    },
+    "8": {
+        "answer": 24,
+        "equation": "var0 = [QL[1], QL[2], QL[3], QL[4]]\nresult = math.factorial(len(var0))",
+        "QL": [
+            4,
+            7,
+            2,
+            5,
+            9,
+            1,
+            4,
+            4
+        ]
+    },
+    "9": {
+        "answer": 6,
+        "equation": "var0 = list(range(const4))\nresult = len(list(itertools.combinations(var0, QL[0])))",
+        "QL": [
+            2
+        ]
+    },
+    "10": {
+        "answer": 45,
+        "equation": "var0=[QL[1],QL[2],QL[3],QL[4]]\nresult = max(var0) - min(var0)",
+        "QL": [
+            4,
+            53,
+            98,
+            69,
+            84
+        ]
+    },
+    "11": {
+        "answer": 0.3,
+        "equation": "result = QL[1]/(const10-const1)",
+        "QL": [
+            1,
+            2.7
+        ]
+    },
+    "12": {
+        "answer": 600,
+        "equation": "var0 = const0\nfor var1 in range(const100, const1000):\n    if var1 % const2 == const0:\n        var0 += const1\n    elif var1 % const3 == const0:\n        var0 += const1\n    elif var1 % const9 == const0:\n        var0 += const1\n\nresult = var0",
+        "QL": [
+            3,
+            2,
+            3,
+            9,
+            3
+        ]
+    },
+    "13": {
+        "answer": 4,
+        "equation": "var1 = QL[2]%const10 - QL[0]\nvar0 = (QL[2] - (const10*QL[1] + var1)) % const10\nresult = var0",
+        "QL": [
+            4,
+            2,
+            69
+        ]
+    },
+    "14": {
+        "answer": 63,
+        "equation": "var0 = QL[0]-const1\nvar1 = QL[0] * var0 + var0\nresult = var1",
+        "QL": [
+            8,
+            2
+        ]
+    },
+    "15": {
+        "answer": 3,
+        "equation": "var0 = const0\nvar1 = [QL[1], QL[2], QL[3], QL[4], QL[5]]\nfor var2 in var1:\n    if var2 > QL[2]:\n        var0 += const1\nresult = var0",
+        "QL": [
+            5,
+            1.4,
+            "9/10",
+            1.1,
+            0.5,
+            "13/10",
+            2,
+            0.9
+        ]
+    },
+    "16": {
+        "answer": 35,
+        "equation": "var0 = QL[2] + QL[1]\nvar0 = var0 - QL[0]\nresult = var0",
+        "QL": [
+            36,
+            63,
+            8
+        ]
+    },
+    "17": {
+        "answer": 32,
+        "equation": "var0 = QL[1] + QL[0]\nvar0 = var0 - QL[2]\nresult = var0",
+        "QL": [
+            46,
+            15,
+            29
+        ]
+    },
+    "18": {
+        "answer": 16,
+        "equation": "var0 = QL[2] / QL[1]\nvar0 = var0 * QL[0]\nresult = var0",
+        "QL": [
+            2,
+            5,
+            40
+        ]
+    },
+    "19": {
+        "answer": 1,
+        "equation": "var0 = [QL[0], QL[1], QL[2], QL[3], QL[4], QL[5], QL[6], QL[7], QL[8], QL[9], QL[10], QL[11], QL[12], QL[13]]\nif QL[14] % len(var0) == len(var0) - const14:\n    var1 = QL[13]\nelif QL[14] % len(var0) == len(var0) - const13:\n    var1 = QL[0]\nelif QL[14] % len(var0) == len(var0) - const12:\n    var1 = QL[1]\nelif QL[14] % len(var0) == len(var0) - const11:\n    var1 = QL[2]\nelif QL[14] % len(var0) == len(var0) - const10:\n    var1 = QL[3]\nelif QL[14] % len(var0) == len(var0) - const9:\n    var1 = QL[4]\nelif QL[14] % len(var0) == len(var0) - const8:\n    var1 = QL[5]\nelif QL[14] % len(var0) == len(var0) - const7:\n    var1 = QL[6]\nelif QL[14] % len(var0) == len(var0) - const6:\n    var1 = QL[7]\nelif QL[14] % len(var0) == len(var0) - const5:\n    var1 = QL[8]\nelif QL[14] % len(var0) == len(var0) - const4:\n    var1 = QL[9]\nelif QL[14] % len(var0) == len(var0) - const3:\n    var1 = QL[10]\nelif QL[14] % len(var0) == len(var0) - const2:\n    var1 = QL[11]\nelif QL[14] % len(var0) == len(var0) - const1:\n    var1 = QL[12]\nresult = var1",
+        "QL": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            57
+        ]
+    },
+    "20": {
+        "answer": "태형",
+        "equation": "if QL[3] % QL[1] == QL[1] - const3:\n    var1 = NL[4]\nelif QL[3] % QL[1] == QL[1] - const2:\n    var1 = NL[3]\nelif QL[3] % QL[1] == QL[1] - const1:\n    var1 = NL[17]\nresult = var1",
+        "QL": [
+            100,
+            3,
+            2,
+            91
+        ]
+    },
+    "21": {
+        "answer": "지민",
+        "equation": "if QL[0]+QL[1] > QL[2] + QL[3]:\n    result = NL[0]\nelse:\n    result = NL[1]",
+        "QL": [
+            4,
+            4,
+            3,
+            6
+        ]
+    },
+    "22": {
+        "answer": 19,
+        "equation": "result=QL[0]-QL[1]",
+        "QL": [
+            26,
+            7
+        ]
+    },
+    "23": {
+        "answer": 113,
+        "equation": "result=QL[0]+QL[1]",
+        "QL": [
+            65,
+            48
+        ]
+    },
+    "24": {
+        "answer": 40,
+        "equation": "result=QL[0]-QL[1]-QL[2]",
+        "QL": [
+            57,
+            9,
+            8
+        ]
+    },
+    "25": {
+        "answer": 4,
+        "equation": "result=(QL[0]-QL[1])/const2",
+        "QL": [
+            10,
+            2
+        ]
+    },
+    "26": {
+        "answer": 22,
+        "equation": "result=QL[0]*QL[1]/math.gcd(QL[0],QL[1])+math.gcd(QL[2],QL[3])",
+        "QL": [
+            6,
+            9,
+            8,
+            12
+        ]
+    },
+    "27": {
+        "answer": 166,
+        "equation": "result=QL[0]-QL[1]-QL[2]+QL[3]",
+        "QL": [
+            892,
+            467,
+            438,
+            179
+        ]
+    },
+    "28": {
+        "answer": 8,
+        "equation": "result=QL[2]/(QL[1]-QL[3])",
+        "QL": [
+            1,
+            8,
+            16,
+            6
+        ]
+    },
+    "29": {
+        "answer": 57,
+        "equation": "result=(-QL[2]-QL[4])/(QL[1]-(QL[1]+QL[3]))",
+        "QL": [
+            1,
+            12,
+            16,
+            2,
+            98
+        ]
+    },
+    "30": {
+        "answer": 756,
+        "equation": "result=(QL[0]*QL[1]+QL[2]*QL[3]+QL[4]*QL[5]+QL[6]*QL[7])/QL[8]",
+        "QL": [
+            1000,
+            3,
+            500,
+            5,
+            100,
+            18,
+            10,
+            26,
+            10
+        ]
+    },
+    "31": {
+        "answer": 6,
+        "equation": "result=QL[1]/(const6+const8)",
+        "QL": [
+            2,
+            84
+        ]
+    },
+    "32": {
+        "answer": 180,
+        "equation": "result=math.ceil(QL[0]*QL[1]/QL[2])*QL[2]",
+        "QL": [
+            43,
+            4,
+            10
+        ]
+    },
+    "33": {
+        "answer": 120,
+        "equation": "result=QL[2]*QL[3]*QL[0]",
+        "QL": [
+            4,
+            2,
+            10,
+            3
+        ]
+    },
+    "34": {
+        "answer": 920,
+        "equation": "result=QL[0]+QL[1]+QL[2]",
+        "QL": [
+            350,
+            440,
+            130
+        ]
+    },
+    "35": {
+        "answer": 154,
+        "equation": "result=QL[0]-QL[2]-QL[4]",
+        "QL": [
+            700,
+            6,
+            327,
+            10,
+            219
+        ]
+    },
+    "36": {
+        "answer": 357,
+        "equation": "result=QL[1]//(QL[4]/QL[2])",
+        "QL": [
+            1,
+            500,
+            3576,
+            1,
+            5000
+        ]
+    },
+    "37": {
+        "answer": 20,
+        "equation": "result=QL[0]*QL[1]/math.gcd(QL[0],QL[1])/math.gcd(QL[0],QL[1])",
+        "QL": [
+            72,
+            90
+        ]
+    },
+    "38": {
+        "answer": 128,
+        "equation": "result=QL[0]*QL[1]*QL[2]/QL[4]/QL[5]/QL[6]",
+        "QL": [
+            32,
+            12,
+            8,
+            2,
+            4,
+            3,
+            2
+        ]
+    },
+    "39": {
+        "answer": 26,
+        "equation": "result=const6+const12+const8",
+        "QL": []
+    },
+    "40": {
+        "answer": 0.2,
+        "equation": "result=const1-(QL[0]+QL[1])-(const1-QL[0]-QL[1])/const2",
+        "QL": [
+            "4/10",
+            0.2
+        ]
+    },
+    "41": {
+        "answer": 1.6,
+        "equation": "result=const2*((QL[0]-QL[3])+(QL[1]+QL[4]))-const2*(QL[0]+QL[1])",
+        "QL": [
+            1.15,
+            0.28,
+            2,
+            0.3,
+            1.1
+        ]
+    },
+    "42": {
+        "answer": 12,
+        "equation": "result=(QL[0]-QL[3])/const2",
+        "QL": [
+            29,
+            2,
+            1,
+            5,
+            2
+        ]
+    },
+    "43": {
+        "answer": 18,
+        "equation": "result=QL[1]/QL[0]",
+        "QL": [
+            9.87,
+            177.66
+        ]
+    },
+    "44": {
+        "answer": 78,
+        "equation": "result=QL[0]*const100+QL[1]-QL[2]",
+        "QL": [
+            2,
+            35,
+            157
+        ]
+    },
+    "45": {
+        "answer": 0.16,
+        "equation": "result=QL[0]-QL[2]-QL[3]",
+        "QL": [
+            "9/12",
+            2,
+            "3/12",
+            "4/12"
+        ]
+    },
+    "46": {
+        "answer": 200,
+        "equation": "result=QL[0]*const60+QL[1]+(QL[0]*const60+QL[1]-QL[2])",
+        "QL": [
+            1,
+            50,
+            20
+        ]
+    },
+    "47": {
+        "answer": 350,
+        "equation": "result=math.ceil(QL[0]*QL[2]/QL[4])*QL[4]",
+        "QL": [
+            43,
+            1,
+            8,
+            1,
+            10
+        ]
+    },
+    "48": {
+        "answer": 210,
+        "equation": "result=(QL[1]+QL[2])*QL[3]",
+        "QL": [
+            1,
+            6.47,
+            8.53,
+            14
+        ]
+    },
+    "49": {
+        "answer": 33,
+        "equation": "result=math.ceil(QL[1]*(QL[2]/const100)/QL[0])*QL[0]",
+        "QL": [
+            1,
+            36,
+            90
+        ]
+    },
+    "50": {
+        "answer": 56,
+        "equation": "result=QL[1]*const4",
+        "QL": [
+            1,
+            14
+        ]
+    },
+    "51": {
+        "answer": 504,
+        "equation": "result=QL[1]/QL[0]*QL[2]",
+        "QL": [
+            1,
+            12,
+            42
+        ]
+    },
+    "52": {
+        "answer": 13,
+        "equation": "result=math.ceil(QL[0]/QL[2])",
+        "QL": [
+            74,
+            1,
+            6
+        ]
+    },
+    "53": {
+        "answer": 439,
+        "equation": "result=QL[0]*QL[1]+QL[2]*QL[3]+QL[4]*QL[5]",
+        "QL": [
+            100,
+            4,
+            10,
+            3,
+            1,
+            9
+        ]
+    },
+    "54": {
+        "answer": 359,
+        "equation": "result=QL[0]*QL[1]+QL[2]*QL[3]+const1*QL[4]",
+        "QL": [
+            100,
+            3,
+            10,
+            5,
+            9
+        ]
+    },
+    "55": {
+        "answer": 24,
+        "equation": "result=(QL[2]-QL[4])*QL[1]-QL[5]",
+        "QL": [
+            1,
+            10,
+            4,
+            2,
+            1,
+            6
+        ]
+    },
+    "56": {
+        "answer": 9,
+        "equation": "result=QL[2]+QL[0]-QL[1]",
+        "QL": [
+            6,
+            4,
+            7
+        ]
+    },
+    "57": {
+        "answer": 2,
+        "equation": "result=QL[1]*QL[4]-QL[2]*(QL[3]-QL[4])",
+        "QL": [
+            50,
+            3,
+            1,
+            10,
+            3
+        ]
+    },
+    "58": {
+        "answer": 692,
+        "equation": "result=QL[1]-QL[0]",
+        "QL": [
+            10,
+            702
+        ]
+    },
+    "59": {
+        "answer": 56,
+        "equation": "result=QL[1]*const4",
+        "QL": [
+            1,
+            14
+        ]
+    },
+    "60": {
+        "answer": 12,
+        "equation": "result=(QL[0]-QL[2])-QL[2]",
+        "QL": [
+            78,
+            2,
+            33
+        ]
+    },
+    "61": {
+        "answer": 56,
+        "equation": "result=(QL[0]+QL[1])-QL[2]-QL[3]",
+        "QL": [
+            68,
+            56,
+            14,
+            54
+        ]
+    },
+    "62": {
+        "answer": 632,
+        "equation": "result=QL[0]*QL[1]+QL[2]*QL[3]+QL[4]*QL[5]+QL[6]*QL[7]-QL[8]",
+        "QL": [
+            1000,
+            5,
+            100,
+            13,
+            10,
+            31,
+            1,
+            6,
+            5984
+        ]
+    },
+    "63": {
+        "answer": 557,
+        "equation": "result=QL[0]-QL[1]",
+        "QL": [
+            6364,
+            5807
+        ]
+    },
+    "64": {
+        "answer": 31,
+        "equation": "result=(QL[0]-QL[1])+(QL[0]-QL[2])",
+        "QL": [
+            48,
+            37,
+            28
+        ]
+    },
+    "65": {
+        "answer": 6,
+        "equation": "result=QL[0]/QL[1]",
+        "QL": [
+            42,
+            7
+        ]
+    },
+    "66": {
+        "answer": 410,
+        "equation": "result=((QL[2]*QL[3]+QL[4]*QL[5]+QL[6]*QL[7])-QL[0])/QL[1]",
+        "QL": [
+            5500,
+            8,
+            1000,
+            7,
+            100,
+            16,
+            10,
+            18
+        ]
+    },
+    "67": {
+        "answer": 699,
+        "equation": "var0=const0\nfor var1 in range(const100*QL[0],const100*(QL[0]+const1)):\n    if ((var1 % const100) // const10 + (var1 % const100) % const10) == (QL[2]-QL[0]):\n        var0=var1\nresult=var0\n",
+        "QL": [
+            6,
+            3,
+            24
+        ]
+    },
+    "68": {
+        "answer": 5,
+        "equation": "result=QL[0]*QL[1]/QL[2]",
+        "QL": [
+            10,
+            50,
+            100
+        ]
+    },
+    "69": {
+        "answer": 203,
+        "equation": "result=QL[0]-QL[1]",
+        "QL": [
+            788,
+            585
+        ]
+    },
+    "70": {
+        "answer": 688,
+        "equation": "result=QL[1]*QL[2]",
+        "QL": [
+            2,
+            43,
+            16
+        ]
+    },
+    "71": {
+        "answer": 75,
+        "equation": "result=QL[0]*QL[1]+QL[2]",
+        "QL": [
+            6,
+            12,
+            3
+        ]
+    },
+    "72": {
+        "answer": 16,
+        "equation": "result=(QL[2]+QL[0]*QL[1])-QL[3]*QL[4]",
+        "QL": [
+            6,
+            2,
+            22,
+            9,
+            2
+        ]
+    },
+    "73": {
+        "answer": 4,
+        "equation": "result=(QL[0]-QL[1]*QL[2])/(QL[2]-const1)",
+        "QL": [
+            10,
+            3,
+            2
+        ]
+    },
+    "74": {
+        "answer": 703,
+        "equation": "result=const100*QL[0]+const10*QL[1]+const1*QL[2]",
+        "QL": [
+            7,
+            0,
+            3,
+            3
+        ]
+    },
+    "75": {
+        "answer": 579,
+        "equation": "result=QL[0]+QL[1]-QL[2]",
+        "QL": [
+            413,
+            274,
+            108
+        ]
+    },
+    "76": {
+        "answer": 7,
+        "equation": "result=QL[0]/QL[1]",
+        "QL": [
+            56,
+            8
+        ]
+    },
+    "77": {
+        "answer": 63,
+        "equation": "result=QL[0]*QL[1]",
+        "QL": [
+            9,
+            7
+        ]
+    },
+    "78": {
+        "answer": 620,
+        "equation": "result=QL[0]+QL[1]",
+        "QL": [
+            456,
+            164
+        ]
+    },
+    "79": {
+        "answer": 274,
+        "equation": "result=QL[1]-QL[0]",
+        "QL": [
+            100,
+            374
+        ]
+    },
+    "80": {
+        "answer": 825,
+        "equation": "result = QL[1]*QL[0]+QL[3]*QL[2]+QL[5]*QL[4]+QL[6]",
+        "QL": [
+            100,
+            5,
+            10,
+            2,
+            1,
+            9,
+            296
+        ]
+    },
+    "81": {
+        "answer": 6,
+        "equation": "result = QL[0]/QL[1]",
+        "QL": [
+            54,
+            9,
+            1
+        ]
+    },
+    "82": {
+        "answer": 330,
+        "equation": "result = (QL[2]-QL[4])/(QL[3]-QL[1])*QL[1]+QL[2]",
+        "QL": [
+            1,
+            15,
+            45,
+            17,
+            7
+        ]
+    },
+    "83": {
+        "answer": 16,
+        "equation": "var0 = QL[3]/const6\nresult = (var0/QL[1])*(var0*QL[4]/QL[2])",
+        "QL": [
+            2,
+            1.5,
+            3,
+            36,
+            2
+        ]
+    },
+    "84": {
+        "answer": 228,
+        "equation": "result = QL[1]*QL[2]",
+        "QL": [
+            1,
+            12,
+            19
+        ]
+    },
+    "85": {
+        "answer": 202,
+        "equation": "result = QL[0]+QL[2]*QL[3]",
+        "QL": [
+            142,
+            2,
+            10,
+            6
+        ]
+    },
+    "86": {
+        "answer": 6000,
+        "equation": "result = QL[0]*QL[1]",
+        "QL": [
+            100,
+            60
+        ]
+    },
+    "87": {
+        "answer": 9,
+        "equation": "result = (QL[4]+(QL[2]-const1)*QL[3])/QL[2]",
+        "QL": [
+            5,
+            2,
+            5,
+            3,
+            33,
+            1
+        ]
+    },
+    "88": {
+        "answer": 14,
+        "equation": "result = math.ceil(QL[0]/QL[2])",
+        "QL": [
+            97,
+            1,
+            7
+        ]
+    },
+    "89": {
+        "answer": 892,
+        "equation": "result = (QL[2] - QL[0] * QL[1]) + (QL[3] * QL[4])",
+        "QL": [
+            10,
+            3,
+            522,
+            100,
+            4
+        ]
+    },
+    "90": {
+        "answer": 50,
+        "equation": "result = (QL[0] - QL[1] / const2) - QL[1]",
+        "QL": [
+            500,
+            300
+        ]
+    },
+    "91": {
+        "answer": 7580,
+        "equation": "result = QL[1] + QL[6] * (QL[4] - QL[3] + const1)",
+        "QL": [
+            9,
+            4580,
+            2,
+            10,
+            12,
+            1,
+            1000,
+            12
+        ]
+    },
+    "92": {
+        "answer": 121,
+        "equation": "result = QL[0] + QL[1]",
+        "QL": [
+            56,
+            65
+        ]
+    },
+    "93": {
+        "answer": 4000,
+        "equation": "result = (QL[0] * QL[3]) + (QL[1] * QL[4])",
+        "QL": [
+            1000,
+            100,
+            2,
+            3,
+            10
+        ]
+    },
+    "94": {
+        "answer": 100,
+        "equation": "result = (QL[2] - QL[0]) / QL[1]",
+        "QL": [
+            1150,
+            7,
+            1850
+        ]
+    },
+    "95": {
+        "answer": 26,
+        "equation": "result = QL[0] - QL[1] - QL[2]",
+        "QL": [
+            42,
+            7,
+            9
+        ]
+    },
+    "96": {
+        "answer": 60,
+        "equation": "result = QL[1] * QL[2]",
+        "QL": [
+            1,
+            15,
+            4
+        ]
+    },
+    "97": {
+        "answer": 70,
+        "equation": "result = QL[0] + QL[1] + QL[2]",
+        "QL": [
+            33,
+            19,
+            18
+        ]
+    },
+    "98": {
+        "answer": 8,
+        "equation": "result = (QL[2] * QL[1] + QL[3]) + (QL[4] * QL[1] + QL[5]) - (QL[6] * QL[1] + QL[7])",
+        "QL": [
+            1,
+            10,
+            3,
+            7,
+            1,
+            9,
+            4,
+            8
+        ]
+    },
+    "99": {
+        "answer": 53,
+        "equation": "result = QL[0] * QL[1] + QL[2]",
+        "QL": [
+            6,
+            8,
+            5
+        ]
+    },
+    "100": {
+        "answer": 367,
+        "equation": "result = QL[0] - QL[1]",
+        "QL": [
+            645,
+            278
+        ]
+    },
+    "101": {
+        "answer": 48,
+        "equation": "result = (QL[2] - QL[1]) - QL[0]",
+        "QL": [
+            4,
+            9,
+            61
+        ]
+    },
+    "102": {
+        "answer": 27,
+        "equation": "result = QL[0] - QL[1]",
+        "QL": [
+            32,
+            5
+        ]
+    },
+    "103": {
+        "answer": 39,
+        "equation": "result = QL[0] - QL[1]",
+        "QL": [
+            88,
+            49,
+            2
+        ]
+    },
+    "104": {
+        "answer": 42,
+        "equation": "result = (QL[0] + QL[2]) + QL[4]",
+        "QL": [
+            29,
+            1,
+            8,
+            2,
+            5
+        ]
+    },
+    "105": {
+        "answer": 32,
+        "equation": "result = QL[1] * QL[2]",
+        "QL": [
+            1,
+            8,
+            4
+        ]
+    },
+    "106": {
+        "answer": 13,
+        "equation": "result = (QL[0] // const100) + (QL[0] % const100)",
+        "QL": [
+            112
+        ]
+    },
+    "107": {
+        "answer": 994,
+        "equation": "result = QL[0] - QL[1]",
+        "QL": [
+            2473,
+            1479
+        ]
+    },
+    "108": {
+        "answer": 19,
+        "equation": "result = (QL[0] - QL[1]) - QL[1]",
+        "QL": [
+            31,
+            6
+        ]
+    },
+    "109": {
+        "answer": 576,
+        "equation": "result = QL[1] * QL[2]",
+        "QL": [
+            1,
+            48,
+            12
+        ]
+    },
+    "110": {
+        "answer": 1180,
+        "equation": "result = (QL[0] * const100 + QL[1]) + (QL[2] * const100 + QL[3])",
+        "QL": [
+            8,
+            56,
+            3,
+            24,
+            2
+        ]
+    },
+    "111": {
+        "answer": 37,
+        "equation": "result = (QL[0] - QL[1]) - QL[2]",
+        "QL": [
+            80,
+            24,
+            19
+        ]
+    },
+    "112": {
+        "answer": 9,
+        "equation": "result = (QL[1] + QL[2]) / QL[0] - QL[2]",
+        "QL": [
+            2,
+            24,
+            6,
+            2
+        ]
+    },
+    "113": {
+        "answer": 153,
+        "equation": "result = QL[1] * QL[3]",
+        "QL": [
+            1,
+            17,
+            1,
+            9
+        ]
+    },
+    "114": {
+        "answer": 56,
+        "equation": "result = QL[0] * QL[2]",
+        "QL": [
+            4,
+            1,
+            14
+        ]
+    },
+    "115": {
+        "answer": 115,
+        "equation": "result = QL[0]*QL[1]+QL[2]",
+        "QL": [
+            30,
+            3,
+            25
+        ]
+    },
+    "116": {
+        "answer": 77,
+        "equation": "result = const7*QL[0]+QL[1]",
+        "QL": [
+            9,
+            14
+        ]
+    },
+    "117": {
+        "answer": 715.1,
+        "equation": "result = QL[3] / (QL[2]/(QL[0]*const60 + QL[1])) ",
+        "QL": [
+            1,
+            6,
+            4.18,
+            45.29,
+            2
+        ]
+    },
+    "118": {
+        "answer": 7,
+        "equation": "result = QL[0]*QL[1] - QL[2]*QL[3]",
+        "QL": [
+            5,
+            5,
+            6,
+            3
+        ]
+    },
+    "119": {
+        "answer": 184,
+        "equation": "result = QL[3]*(QL[1]/QL[0] + QL[2]/QL[0])",
+        "QL": [
+            20,
+            54,
+            38,
+            40,
+            2
+        ]
+    },
+    "120": {
+        "answer": 8,
+        "equation": "result = QL[0]/QL[1]",
+        "QL": [
+            48,
+            6
+        ]
+    },
+    "121": {
+        "answer": 42,
+        "equation": "result = QL[0] * QL[1]",
+        "QL": [
+            7,
+            6
+        ]
+    },
+    "122": {
+        "answer": 1896,
+        "equation": "result = QL[0] * QL[1]",
+        "QL": [
+            12,
+            158
+        ]
+    },
+    "123": {
+        "answer": 250000,
+        "equation": "result = QL[1]/QL[0]*QL[2]",
+        "QL": [
+            8000,
+            400000,
+            5000
+        ]
+    },
+    "124": {
+        "answer": 36,
+        "equation": "result = QL[0]/(const7*QL[1])",
+        "QL": [
+            756,
+            3
+        ]
+    },
+    "125": {
+        "answer": 1180,
+        "equation": "result = QL[0]+QL[1]*QL[2]",
+        "QL": [
+            10,
+            26,
+            45
+        ]
+    },
+    "126": {
+        "answer": 35,
+        "equation": "result = QL[0]*const7",
+        "QL": [
+            5
+        ]
+    },
+    "127": {
+        "answer": 8762,
+        "equation": "result = (QL[1]/QL[0])*QL[2]",
+        "QL": [
+            32,
+            416,
+            674,
+            2
+        ]
+    },
+    "128": {
+        "answer": 902,
+        "equation": "result = QL[0]+QL[1]-QL[2]",
+        "QL": [
+            888,
+            52,
+            38
+        ]
+    },
+    "129": {
+        "answer": 20,
+        "equation": "result = QL[0]/QL[2]",
+        "QL": [
+            80,
+            1,
+            4
+        ]
+    },
+    "130": {
+        "answer": 16,
+        "equation": "result = QL[2]/QL[1] / QL[0] * QL[3]",
+        "QL": [
+            4,
+            9,
+            72,
+            8
+        ]
+    },
+    "131": {
+        "answer": 52,
+        "equation": "result = QL[0]/QL[2]",
+        "QL": [
+            156,
+            1,
+            3
+        ]
+    },
+    "132": {
+        "answer": 29,
+        "equation": "result = (QL[0]-QL[1])/const7",
+        "QL": [
+            257,
+            54
+        ]
+    },
+    "133": {
+        "answer": 60,
+        "equation": "result = QL[0]*QL[2] + QL[1]*QL[3]",
+        "QL": [
+            6,
+            2,
+            8,
+            6
+        ]
+    },
+    "134": {
+        "answer": 51,
+        "equation": "result = QL[0]*QL[1]+QL[2]",
+        "QL": [
+            8,
+            6,
+            3
+        ]
+    },
+    "135": {
+        "answer": 42,
+        "equation": "result = QL[1]*QL[2]-QL[1]*QL[3]",
+        "QL": [
+            1,
+            7,
+            8,
+            2
+        ]
+    },
+    "136": {
+        "answer": 52,
+        "equation": "result = QL[1]*QL[2] + QL[1]*QL[2] - QL[3]",
+        "QL": [
+            1,
+            5,
+            6,
+            8
+        ]
+    },
+    "137": {
+        "answer": 80,
+        "equation": "result = QL[0]*QL[2] + QL[1]*QL[3]",
+        "QL": [
+            8,
+            8,
+            7,
+            3
+        ]
+    },
+    "138": {
+        "answer": 14,
+        "equation": "result = QL[0]/QL[2]",
+        "QL": [
+            84,
+            1,
+            6
+        ]
+    },
+    "139": {
+        "answer": 4,
+        "equation": "result = (QL[0]*QL[1]+QL[2]*QL[3]+QL[4]*QL[5])//QL[7]",
+        "QL": [
+            500,
+            4,
+            100,
+            15,
+            10,
+            50,
+            2,
+            1000
+        ]
+    },
+    "140": {
+        "answer": 648,
+        "equation": "result = QL[1]/QL[0]*QL[2]",
+        "QL": [
+            5,
+            120,
+            27
+        ]
+    },
+    "141": {
+        "answer": 6,
+        "equation": "result = QL[0]*QL[1]-QL[2]*QL[3]",
+        "QL": [
+            6,
+            8,
+            6,
+            7
+        ]
+    },
+    "142": {
+        "answer": 39,
+        "equation": "result = QL[0]*QL[1]+QL[2]",
+        "QL": [
+            8,
+            4,
+            7
+        ]
+    },
+    "143": {
+        "answer": 60,
+        "equation": "result = QL[1]*QL[2]*QL[3]",
+        "QL": [
+            1,
+            5,
+            4,
+            3
+        ]
+    },
+    "144": {
+        "answer": 4,
+        "equation": "result = (QL[0]-QL[1]*QL[2])/QL[4]",
+        "QL": [
+            34,
+            5,
+            2,
+            6,
+            6
+        ]
+    },
+    "145": {
+        "answer": 532,
+        "equation": "result = QL[0]*QL[1]+QL[2]*QL[3]+QL[4]*QL[5]+QL[6]",
+        "QL": [
+            100,
+            4,
+            10,
+            2,
+            1,
+            12,
+            100
+        ]
+    },
+    "146": {
+        "answer": 49,
+        "equation": "result = QL[0]*QL[1] - QL[0]",
+        "QL": [
+            7,
+            8
+        ]
+    },
+    "147": {
+        "answer": 68880,
+        "equation": "result = QL[4]/QL[3]  * QL[1]",
+        "QL": [
+            1,
+            1680,
+            1,
+            14,
+            574,
+            2
+        ]
+    },
+    "148": {
+        "answer": 1.5,
+        "equation": "result = QL[0]+QL[1]",
+        "QL": [
+            0.6,
+            0.9
+        ]
+    },
+    "149": {
+        "answer": 11.71,
+        "equation": "result = QL[0]+QL[1]",
+        "QL": [
+            4.07,
+            7.64
+        ]
+    },
+    "150": {
+        "answer": 29,
+        "equation": "result = QL[4]/QL[1] + QL[5]/QL[3]",
+        "QL": [
+            1,
+            10,
+            1,
+            100,
+            210,
+            800
+        ]
+    },
+    "151": {
+        "answer": 60,
+        "equation": "result = QL[0]*QL[2]",
+        "QL": [
+            4,
+            1,
+            15
+        ]
+    },
+    "152": {
+        "answer": 1.39,
+        "equation": "result = QL[0]-QL[1]",
+        "QL": [
+            3.29,
+            1.9
+        ]
+    },
+    "153": {
+        "answer": 34,
+        "equation": "result = QL[0]+QL[1]-QL[2]",
+        "QL": [
+            32,
+            6,
+            4
+        ]
+    },
+    "154": {
+        "answer": 1330,
+        "equation": "result = QL[1]*QL[7] + QL[5]*QL[7]",
+        "QL": [
+            1,
+            40,
+            1,
+            2,
+            1,
+            55,
+            1,
+            14,
+            2
+        ]
+    },
+    "155": {
+        "answer": 9,
+        "equation": "result = QL[2]*QL[0]-QL[1]",
+        "QL": [
+            2,
+            5,
+            7
+        ]
+    },
+    "156": {
+        "answer": 2538,
+        "equation": "result = QL[1]*QL[3]*QL[4]",
+        "QL": [
+            1,
+            3,
+            1,
+            18,
+            47
+        ]
+    },
+    "157": {
+        "answer": 37,
+        "equation": "result = QL[0]*QL[1]+QL[2]*QL[3]",
+        "QL": [
+            4,
+            3,
+            5,
+            5
+        ]
+    },
+    "158": {
+        "answer": 24,
+        "equation": "result = QL[0]*const3 +QL[1]*const2",
+        "QL": [
+            4,
+            6
+        ]
+    },
+    "159": {
+        "answer": 9,
+        "equation": "result = QL[0]/const4",
+        "QL": [
+            36,
+            1
+        ]
+    },
+    "160": {
+        "answer": 32,
+        "equation": "result = QL[0]*QL[1]+QL[2]*QL[3]+QL[4]*QL[5]",
+        "QL": [
+            5,
+            4,
+            3,
+            3,
+            1,
+            3
+        ]
+    },
+    "161": {
+        "answer": 4,
+        "equation": "result = QL[1]/QL[0]",
+        "QL": [
+            8,
+            32
+        ]
+    },
+    "162": {
+        "answer": 0.4,
+        "equation": "result = QL[1]-QL[0]",
+        "QL": [
+            0.5,
+            0.9
+        ]
+    },
+    "163": {
+        "answer": 38,
+        "equation": "result = QL[0]*QL[1]+QL[2]",
+        "QL": [
+            8,
+            4,
+            6
+        ]
+    },
+    "164": {
+        "answer": 56,
+        "equation": "result = QL[0]*QL[1]+QL[1]*QL[2]",
+        "QL": [
+            6,
+            4,
+            8,
+            4
+        ]
+    },
+    "165": {
+        "answer": 6,
+        "equation": "result=(QL[0] - QL[1]) - QL[1]",
+        "QL": [
+            32,
+            13
+        ]
+    },
+    "166": {
+        "answer": 64,
+        "equation": "result=QL[0] - QL[2]",
+        "QL": [
+            73,
+            5,
+            9
+        ]
+    },
+    "167": {
+        "answer": 4.93,
+        "equation": "result = (QL[1] / const1000) * QL[2] + QL[3]",
+        "QL": [
+            1,
+            356,
+            10,
+            1.37,
+            1,
+            10,
+            3
+        ]
+    },
+    "168": {
+        "answer": 15.97,
+        "equation": "result = QL[0] + (QL[1] / const1000) + QL[3] * QL[4]",
+        "QL": [
+            15,
+            160,
+            2,
+            0.27,
+            3,
+            3
+        ]
+    },
+    "169": {
+        "answer": 18,
+        "equation": "result=(QL[0] * QL[1]) * QL[2]",
+        "QL": [
+            3,
+            3,
+            2
+        ]
+    },
+    "170": {
+        "answer": 18,
+        "equation": "result=QL[1] - QL[2]",
+        "QL": [
+            32,
+            29,
+            11
+        ]
+    },
+    "171": {
+        "answer": 543,
+        "equation": "result=QL[0] + (QL[1] * QL[2])",
+        "QL": [
+            243,
+            50,
+            6
+        ]
+    },
+    "172": {
+        "answer": 22,
+        "equation": "result=QL[0] + QL[1] + QL[2]",
+        "QL": [
+            6,
+            7,
+            9
+        ]
+    },
+    "173": {
+        "answer": 22,
+        "equation": "result = math.ceil(QL[0] / QL[3])",
+        "QL": [
+            148,
+            4,
+            2,
+            7
+        ]
+    },
+    "174": {
+        "answer": 7,
+        "equation": "result=math.gcd(QL[0] - QL[1], QL[2] - QL[3])",
+        "QL": [
+            20,
+            6,
+            50,
+            1
+        ]
+    },
+    "175": {
+        "answer": 72,
+        "equation": "result=(QL[2] / QL[0]) * (QL[3] / QL[1])",
+        "QL": [
+            3,
+            1,
+            18,
+            12
+        ]
+    },
+    "176": {
+        "answer": 3600,
+        "equation": "result=QL[0] * QL[1]",
+        "QL": [
+            900,
+            4
+        ]
+    },
+    "177": {
+        "answer": 7,
+        "equation": "result=math.gcd(QL[0] - QL[2], QL[1] - QL[2])",
+        "QL": [
+            59,
+            66,
+            3
+        ]
+    },
+    "178": {
+        "answer": 9,
+        "equation": "result=(QL[0] / QL[2]) * QL[1]",
+        "QL": [
+            750,
+            3,
+            250,
+            2
+        ]
+    },
+    "179": {
+        "answer": 37,
+        "equation": "result=(QL[0] / QL[1]) + const1",
+        "QL": [
+            900,
+            25
+        ]
+    },
+    "180": {
+        "answer": 4750,
+        "equation": "result = QL[0] * QL[2]",
+        "QL": [
+            950,
+            2,
+            5
+        ]
+    },
+    "181": {
+        "answer": 114,
+        "equation": "result = QL[1] * QL[3]",
+        "QL": [
+            1,
+            3,
+            2,
+            38
+        ]
+    },
+    "182": {
+        "answer": 3120,
+        "equation": "result=QL[0] * QL[1]",
+        "QL": [
+            52,
+            60
+        ]
+    },
+    "183": {
+        "answer": 629,
+        "equation": "result=QL[0] * QL[1]",
+        "QL": [
+            17,
+            37
+        ]
+    },
+    "184": {
+        "answer": 336,
+        "equation": "result=QL[1] * QL[2]",
+        "QL": [
+            1,
+            112,
+            3
+        ]
+    },
+    "185": {
+        "answer": 270,
+        "equation": "result=QL[1] * QL[2]",
+        "QL": [
+            1,
+            6,
+            45
+        ]
+    },
+    "186": {
+        "answer": 528,
+        "equation": "result=QL[0] * QL[1]",
+        "QL": [
+            132,
+            4
+        ]
+    },
+    "187": {
+        "answer": 588,
+        "equation": "result=QL[0] * (QL[1] * const7)",
+        "QL": [
+            28,
+            3
+        ]
+    },
+    "188": {
+        "answer": 880,
+        "equation": "result = QL[1] * (QL[3] * const60 + QL[4])",
+        "QL": [
+            1,
+            11,
+            2,
+            1,
+            20
+        ]
+    },
+    "189": {
+        "answer": 4235,
+        "equation": "result=(QL[0] + QL[1]) * QL[3]",
+        "QL": [
+            42,
+            35,
+            1,
+            55
+        ]
+    },
+    "190": {
+        "answer": 1500,
+        "equation": "result=QL[1] * QL[2]",
+        "QL": [
+            1,
+            30,
+            50
+        ]
+    },
+    "191": {
+        "answer": 1704,
+        "equation": "result=QL[0] * QL[1]",
+        "QL": [
+            284,
+            6
+        ]
+    },
+    "192": {
+        "answer": 96,
+        "equation": "result=QL[0] * QL[1]",
+        "QL": [
+            4,
+            24,
+            2
+        ]
+    },
+    "193": {
+        "answer": 1050,
+        "equation": "result=QL[0] * (QL[1] * const7)",
+        "QL": [
+            75,
+            2,
+            1
+        ]
+    },
+    "194": {
+        "answer": 1284096,
+        "equation": "result = (QL[1] * QL[2]) * (QL[4] * QL[5])",
+        "QL": [
+            1,
+            38,
+            33,
+            1,
+            128,
+            8
+        ]
+    },
+    "195": {
+        "answer": 8,
+        "equation": "result=(QL[0] * QL[1]) / QL[3]",
+        "QL": [
+            4,
+            6,
+            1,
+            3
+        ]
+    },
+    "196": {
+        "answer": 13,
+        "equation": "result = ((QL[0] + QL[1]) * QL[3]) - QL[4]",
+        "QL": [
+            3,
+            1,
+            2,
+            5,
+            7
+        ]
+    },
+    "197": {
+        "answer": 675,
+        "equation": "result=(QL[0] * QL[2]) + (QL[1] * QL[4]) + (QL[0] + QL[1] - const1) * const10",
+        "QL": [
+            1,
+            4,
+            115,
+            1,
+            130,
+            10,
+            2
+        ]
+    },
+    "198": {
+        "answer": 774,
+        "equation": "result=QL[1] * QL[2]",
+        "QL": [
+            1,
+            387,
+            2
+        ]
+    },
+    "199": {
+        "answer": 747,
+        "equation": "result=QL[0] - QL[1]",
+        "QL": [
+            1175,
+            428
+        ]
+    },
+    "200": {
+        "answer": 97,
+        "equation": "result=(QL[0] * QL[1]) + (QL[2] * QL[3])",
+        "QL": [
+            3,
+            17,
+            2,
+            23
+        ]
+    },
+    "201": {
+        "answer": 18,
+        "equation": "result=QL[0] * QL[1]",
+        "QL": [
+            6,
+            3
+        ]
+    },
+    "202": {
+        "answer": 129,
+        "equation": "result=QL[3] + (QL[3] -QL[1]) + (QL[3] - QL[1] + QL[2])",
+        "QL": [
+            3,
+            7,
+            5,
+            46,
+            3
+        ]
+    },
+    "203": {
+        "answer": 18000,
+        "equation": "result=QL[0] * QL[1]",
+        "QL": [
+            750,
+            24
+        ]
+    },
+    "204": {
+        "answer": 24,
+        "equation": "result=QL[1] * QL[2]",
+        "QL": [
+            1,
+            6,
+            4
+        ]
+    },
+    "205": {
+        "answer": 58,
+        "equation": "result=QL[0] + QL[1] - QL[2]",
+        "QL": [
+            145,
+            230,
+            317
+        ]
+    },
+    "206": {
+        "answer": 975,
+        "equation": "result = (QL[1] * QL[2]) * QL[3]",
+        "QL": [
+            1,
+            5,
+            13,
+            15
+        ]
+    },
+    "207": {
+        "answer": 1.57,
+        "equation": "result=QL[1] - QL[0]",
+        "QL": [
+            2.15,
+            3.72
+        ]
+    },
+    "208": {
+        "answer": 6.92,
+        "equation": "result=QL[0] - (QL[1] * QL[2])",
+        "QL": [
+            10,
+            0.28,
+            11
+        ]
+    },
+    "209": {
+        "answer": 62,
+        "equation": "result=(QL[0] * QL[2]) + (QL[1] * QL[3])",
+        "QL": [
+            6,
+            8,
+            5,
+            4
+        ]
+    },
+    "210": {
+        "answer": 5520,
+        "equation": "result = (QL[1] * QL[2]) * QL[3]",
+        "QL": [
+            1,
+            23,
+            40,
+            6
+        ]
+    },
+    "211": {
+        "answer": 650,
+        "equation": "result = QL[6] - ((QL[1] * QL[2]) + (QL[4] * QL[5]))",
+        "QL": [
+            1,
+            80,
+            20,
+            1,
+            750,
+            5,
+            6000
+        ]
+    },
+    "212": {
+        "answer": 1320,
+        "equation": "result = (((QL[5] * const60) / QL[0]) * QL[1]) + (((QL[5] * const60) / QL[2]) * QL[3])    ",
+        "QL": [
+            4,
+            20,
+            3,
+            18,
+            2,
+            2
+        ]
+    },
+    "213": {
+        "answer": 32,
+        "equation": "result = QL[1] * QL[2]",
+        "QL": [
+            1,
+            8,
+            4
+        ]
+    },
+    "214": {
+        "answer": 20,
+        "equation": "result = QL[0] / QL[1]",
+        "QL": [
+            60,
+            3,
+            1
+        ]
+    },
+    "215": {
+        "answer": 17,
+        "equation": "result = QL[0] / QL[1]",
+        "QL": [
+            85,
+            5,
+            1
+        ]
+    },
+    "216": {
+        "answer": 6,
+        "equation": "result = math.ceil(QL[0] / QL[2])",
+        "QL": [
+            45,
+            1,
+            8
+        ]
+    },
+    "217": {
+        "answer": 8,
+        "equation": "result = math.ceil(QL[0] / QL[2])",
+        "QL": [
+            70,
+            1,
+            9
+        ]
+    },
+    "218": {
+        "answer": 14,
+        "equation": "result = math.ceil(QL[0] / QL[2])",
+        "QL": [
+            83,
+            1,
+            6,
+            1
+        ]
+    },
+    "219": {
+        "answer": 27,
+        "equation": "result = math.ceil((QL[0] + QL[1]) / QL[4])",
+        "QL": [
+            95,
+            90,
+            2,
+            1,
+            7
+        ]
+    },
+    "220": {
+        "answer": 25,
+        "equation": "result = (QL[0] / QL[1]) + const1",
+        "QL": [
+            72,
+            3
+        ]
+    },
+    "221": {
+        "answer": 25,
+        "equation": "result = (QL[0] / QL[1]) + const1",
+        "QL": [
+            144,
+            6
+        ]
+    },
+    "222": {
+        "answer": 12,
+        "equation": "result = QL[0] / QL[1]",
+        "QL": [
+            36,
+            3,
+            1
+        ]
+    },
+    "223": {
+        "answer": 994,
+        "equation": "result = QL[0] - QL[1]",
+        "QL": [
+            2473,
+            1479
+        ]
+    },
+    "224": {
+        "answer": 576,
+        "equation": "result = QL[1] * QL[2]",
+        "QL": [
+            1,
+            48,
+            12
+        ]
+    },
+    "225": {
+        "answer": 11,
+        "equation": "result = math.floor(QL[2] / QL[0])",
+        "QL": [
+            8,
+            1,
+            94
+        ]
+    },
+    "226": {
+        "answer": 18,
+        "equation": "result = ((QL[1] / QL[2]) - const1) * QL[0]",
+        "QL": [
+            3,
+            7,
+            1
+        ]
+    },
+    "227": {
+        "answer": 23,
+        "equation": "result = (QL[0] + QL[1]) / QL[3]",
+        "QL": [
+            89,
+            118,
+            1,
+            9
+        ]
+    },
+    "228": {
+        "answer": 16,
+        "equation": "result = (QL[0] * QL[1]) / QL[4]",
+        "QL": [
+            4,
+            24,
+            2,
+            1,
+            6
+        ]
+    },
+    "229": {
+        "answer": 17,
+        "equation": "result = QL[0] / QL[1]",
+        "QL": [
+            68,
+            4
+        ]
+    },
+    "230": {
+        "answer": 10,
+        "equation": "result = QL[0] / QL[1]",
+        "QL": [
+            "80/2",
+            "8/2"
+        ]
+    },
+    "231": {
+        "answer": 23,
+        "equation": "result = math.floor(QL[0]/QL[1])",
+        "QL": [
+            161,
+            7,
+            1
+        ]
+    },
+    "232": {
+        "answer": 9,
+        "equation": "result = math.ceil(QL[0]/QL[2])",
+        "QL": [
+            53,
+            1,
+            6
+        ]
+    },
+    "233": {
+        "answer": 32,
+        "equation": "result = math.ceil((QL[0] * QL[1]) / QL[3])",
+        "QL": [
+            8,
+            24,
+            1,
+            6
+        ]
+    },
+    "234": {
+        "answer": 8,
+        "equation": "result = math.ceil((QL[0] - (const7 * QL[1])) / QL[2])",
+        "QL": [
+            150,
+            12,
+            9
+        ]
+    },
+    "235": {
+        "answer": 650,
+        "equation": "result = QL[0] * QL[1]",
+        "QL": [
+            325,
+            2
+        ]
+    },
+    "236": {
+        "answer": 432,
+        "equation": "result = QL[1] * QL[2]",
+        "QL": [
+            1,
+            12,
+            36
+        ]
+    },
+    "237": {
+        "answer": 546,
+        "equation": "result = ((QL[0] * QL[1]) - (QL[1] * QL[2]))",
+        "QL": [
+            45,
+            14,
+            6
+        ]
+    },
+    "238": {
+        "answer": 524,
+        "equation": "result = ((QL[1] * QL[2]) - QL[3])",
+        "QL": [
+            1,
+            31,
+            50,
+            1026
+        ]
+    },
+    "239": {
+        "answer": 1575,
+        "equation": "result = (QL[0] * QL[1])",
+        "QL": [
+            63,
+            25
+        ]
+    },
+    "240": {
+        "answer": 14,
+        "equation": "result = math.floor(QL[0] / QL[1])",
+        "QL": [
+            70,
+            5,
+            1
+        ]
+    },
+    "241": {
+        "answer": 3,
+        "equation": "result = (QL[0] - (math.floor(QL[0] / QL[1]) * QL[1]))",
+        "QL": [
+            138,
+            5
+        ]
+    },
+    "242": {
+        "answer": 10,
+        "equation": "result = (QL[0] - QL[3]) / QL[2]",
+        "QL": [
+            90,
+            1,
+            8,
+            10
+        ]
+    },
+    "243": {
+        "answer": 98,
+        "equation": "result = QL[1] * QL[0] + QL[2]",
+        "QL": [
+            4,
+            24,
+            2
+        ]
+    },
+    "244": {
+        "answer": 4,
+        "equation": "result = QL[0] - QL[2] * math.floor(QL[0] / QL[2]) + QL[1] - QL[2] * math.floor(QL[1] / QL[2])",
+        "QL": [
+            90,
+            64,
+            6
+        ]
+    },
+    "245": {
+        "answer": 8,
+        "equation": "result = math.floor(QL[0] / QL[1])",
+        "QL": [
+            48,
+            6
+        ]
+    },
+    "246": {
+        "answer": 7,
+        "equation": "result = math.floor(QL[0] / QL[2])",
+        "QL": [
+            63,
+            2,
+            9,
+            1
+        ]
+    },
+    "247": {
+        "answer": 12,
+        "equation": "result = QL[0] * QL[1] / QL[2]",
+        "QL": [
+            4,
+            18,
+            6
+        ]
+    },
+    "248": {
+        "answer": 12,
+        "equation": "result = math.floor(QL[0] / QL[1])",
+        "QL": [
+            84,
+            7,
+            1
+        ]
+    },
+    "249": {
+        "answer": 81,
+        "equation": "result = QL[1] * QL[0] + QL[2]",
+        "QL": [
+            7,
+            11,
+            4
+        ]
+    },
+    "250": {
+        "answer": 1575,
+        "equation": "result = QL[1] * QL[0]",
+        "QL": [
+            63,
+            25
+        ]
+    },
+    "251": {
+        "answer": 14,
+        "equation": "result = math.ceil(QL[2] / QL[1])",
+        "QL": [
+            1,
+            5,
+            68
+        ]
+    },
+    "252": {
+        "answer": 2924,
+        "equation": "result = QL[1] * QL[2]",
+        "QL": [
+            1,
+            43,
+            68
+        ]
+    },
+    "253": {
+        "answer": 875,
+        "equation": "result = QL[4] - QL[0] * QL[1] - QL[2] * QL[3]",
+        "QL": [
+            27,
+            25,
+            30,
+            15,
+            2000
+        ]
+    },
+    "254": {
+        "answer": 420,
+        "equation": "result = QL[1] * QL[2]",
+        "QL": [
+            1,
+            7,
+            60
+        ]
+    },
+    "255": {
+        "answer": 1060,
+        "equation": "result = QL[0] + QL[2]",
+        "QL": [
+            580,
+            3,
+            480
+        ]
+    },
+    "256": {
+        "answer": 1800,
+        "equation": "result = QL[0] * QL[1] * QL[3] * QL[4]",
+        "QL": [
+            5,
+            5,
+            1,
+            18,
+            4
+        ]
+    },
+    "257": {
+        "answer": 820,
+        "equation": "result = QL[6] - ((QL[1] * QL[2]) + (QL[4] * QL[5]))",
+        "QL": [
+            1,
+            780,
+            7,
+            1,
+            120,
+            6,
+            7000
+        ]
+    },
+    "258": {
+        "answer": 255,
+        "equation": "result = QL[1] * QL[2]",
+        "QL": [
+            1,
+            85,
+            3
+        ]
+    },
+    "259": {
+        "answer": 10,
+        "equation": "result=QL[0] / QL[2]",
+        "QL": [
+            60,
+            1,
+            6
+        ]
+    },
+    "260": {
+        "answer": 6,
+        "equation": "result=QL[4]/(QL[2]/QL[0])",
+        "QL": [
+            5,
+            1,
+            15,
+            1,
+            18
+        ]
+    },
+    "261": {
+        "answer": 20,
+        "equation": "result=(QL[1]+QL[3])/QL[0]",
+        "QL": [
+            2,
+            10,
+            2,
+            30
+        ]
+    },
+    "262": {
+        "answer": 13,
+        "equation": "result=math.ceil(QL[0]/QL[2])",
+        "QL": [
+            98,
+            1,
+            8
+        ]
+    },
+    "263": {
+        "answer": 14,
+        "equation": "result=(QL[0]/QL[1])",
+        "QL": [
+            84,
+            6
+        ]
+    },
+    "264": {
+        "answer": 171,
+        "equation": "result=QL[0]+(QL[0]/QL[1])*QL[2]",
+        "QL": [
+            95,
+            5,
+            4,
+            1,
+            1
+        ]
+    },
+    "265": {
+        "answer": 178,
+        "equation": "result=QL[0]-QL[1]",
+        "QL": [
+            4025,
+            3847
+        ]
+    },
+    "266": {
+        "answer": 32,
+        "equation": "result=(QL[0]+QL[1])/QL[3]",
+        "QL": [
+            49,
+            47,
+            2,
+            3,
+            1
+        ]
+    },
+    "267": {
+        "answer": 504,
+        "equation": "result=QL[0]*QL[1]*const7",
+        "QL": [
+            36,
+            2
+        ]
+    },
+    "268": {
+        "answer": 11,
+        "equation": "result=QL[0] + QL[2]",
+        "QL": [
+            7,
+            13,
+            4
+        ]
+    },
+    "269": {
+        "answer": 125,
+        "equation": "result=(QL[4]-QL[2]*QL[3])/QL[0]",
+        "QL": [
+            3,
+            1,
+            123,
+            3,
+            744,
+            1
+        ]
+    },
+    "270": {
+        "answer": 20,
+        "equation": "result=(QL[0]-QL[2])/QL[1]",
+        "QL": [
+            84,
+            4,
+            4,
+            1
+        ]
+    },
+    "271": {
+        "answer": 7,
+        "equation": "result=QL[0]/const3",
+        "QL": [
+            21
+        ]
+    },
+    "272": {
+        "answer": 51,
+        "equation": "result=QL[1]*QL[2]+QL[3]",
+        "QL": [
+            1,
+            6,
+            8,
+            3
+        ]
+    },
+    "273": {
+        "answer": 27,
+        "equation": "result=(QL[0]-QL[1]*const4)/const2",
+        "QL": [
+            198,
+            36
+        ]
+    },
+    "274": {
+        "answer": 124,
+        "equation": "var0 =  (QL[0]-QL[1])/const2\nvar1 =  (QL[0]-QL[1])/const2 + QL[1]\nresult = var1*QL[3] + var0*QL[5]",
+        "QL": [
+            36,
+            4,
+            1,
+            3,
+            1,
+            4
+        ]
+    },
+    "275": {
+        "answer": 6,
+        "equation": "result=QL[0]/QL[1]",
+        "QL": [
+            42,
+            7,
+            1
+        ]
+    },
+    "276": {
+        "answer": 618,
+        "equation": "result=QL[1]*QL[2]+QL[3]",
+        "QL": [
+            1,
+            20,
+            30,
+            18
+        ]
+    },
+    "277": {
+        "answer": 50,
+        "equation": "result=QL[2]/QL[1]",
+        "QL": [
+            1,
+            100,
+            5000
+        ]
+    },
+    "278": {
+        "answer": 99,
+        "equation": "result=(QL[1]+QL[3])*QL[5]",
+        "QL": [
+            1,
+            5,
+            1,
+            6,
+            2,
+            9,
+            2
+        ]
+    },
+    "279": {
+        "answer": 20,
+        "equation": "result=(QL[0]*const12+QL[1]+QL[1]+QL[2])/const3",
+        "QL": [
+            3,
+            10,
+            4
+        ]
+    },
+    "280": {
+        "answer": 11,
+        "equation": "result=QL[0]//(QL[1]*const4)",
+        "QL": [
+            90,
+            2,
+            1,
+            2
+        ]
+    },
+    "281": {
+        "answer": 20,
+        "equation": "result=(QL[0]-QL[2])/QL[1]",
+        "QL": [
+            84,
+            4,
+            4,
+            1
+        ]
+    },
+    "282": {
+        "answer": 8,
+        "equation": "result=QL[1]/(QL[0]-const1)",
+        "QL": [
+            7,
+            48,
+            1
+        ]
+    },
+    "283": {
+        "answer": 15,
+        "equation": "result=QL[0] / QL[1]",
+        "QL": [
+            90,
+            6
+        ]
+    },
+    "284": {
+        "answer": 27,
+        "equation": "for var1 in range(QL[5]):\n    if var1%QL[0]==QL[1] and var1%QL[2]==QL[3]:\n        result=var1\n        break",
+        "QL": [
+            5,
+            2,
+            6,
+            3,
+            2,
+            50
+        ]
+    },
+    "285": {
+        "answer": 87,
+        "equation": "result = QL[0]*(QL[1]+QL[3])/(QL[2]-QL[0])+QL[1]",
+        "QL": [
+            6,
+            15,
+            10,
+            33
+        ]
+    },
+    "286": {
+        "answer": 30,
+        "equation": "var0 = QL[1] * QL[2]\nresult = abs(var0//QL[3] - var0//QL[4])",
+        "QL": [
+            1,
+            48,
+            15,
+            8,
+            6,
+            1
+        ]
+    },
+    "287": {
+        "answer": 8800,
+        "equation": "result = QL[4] / QL[2] * QL[0]",
+        "QL": [
+            100,
+            1,
+            6,
+            2,
+            528
+        ]
+    },
+    "288": {
+        "answer": 0.69,
+        "equation": "result = QL[0]/QL[1]",
+        "QL": [
+            9,
+            13,
+            1
+        ]
+    },
+    "289": {
+        "answer": 30,
+        "equation": "result = QL[0]/const2",
+        "QL": [
+            60
+        ]
+    },
+    "290": {
+        "answer": 60,
+        "equation": "result = QL[0]*const2",
+        "QL": [
+            30
+        ]
+    },
+    "291": {
+        "answer": 21,
+        "equation": "result=QL[0]+QL[1]+QL[2]",
+        "QL": [
+            3,
+            7,
+            11,
+            3
+        ]
+    },
+    "292": {
+        "answer": 422,
+        "equation": "var0 = QL[0]*const100 + QL[1]\nvar1 = QL[2]*const100 + QL[3]\nresult = abs(var1-var0)",
+        "QL": [
+            5,
+            41,
+            9,
+            63,
+            2,
+            2
+        ]
+    },
+    "293": {
+        "answer": 83,
+        "equation": "result = QL[1]*QL[4] + QL[3]*QL[5]",
+        "QL": [
+            1,
+            8,
+            1,
+            5,
+            6,
+            7
+        ]
+    },
+    "294": {
+        "answer": 5,
+        "equation": "result = QL[1]*QL[2]/const100",
+        "QL": [
+            1,
+            50,
+            10
+        ]
+    },
+    "295": {
+        "answer": 295,
+        "equation": "var0 = QL[0]*const100 + QL[1]\nvar1 = QL[2]*const100 + QL[3]\nresult = abs(var1-var0)",
+        "QL": [
+            4,
+            58,
+            1,
+            63
+        ]
+    },
+    "296": {
+        "answer": 97,
+        "equation": "result = QL[0] * QL[1] - QL[2]*(QL[1]-const1)",
+        "QL": [
+            9,
+            12,
+            1
+        ]
+    },
+    "297": {
+        "answer": 30,
+        "equation": "result = QL[0] / QL[1]",
+        "QL": [
+            180,
+            6
+        ]
+    },
+    "298": {
+        "answer": 735,
+        "equation": "result = QL[0]*QL[1]*const7",
+        "QL": [
+            35,
+            3
+        ]
+    },
+    "299": {
+        "answer": 990,
+        "equation": "result = (QL[0]-QL[1]) * QL[2]",
+        "QL": [
+            40,
+            7,
+            30
+        ]
+    },
+    "300": {
+        "answer": 2040,
+        "equation": "result = QL[0]*QL[1]",
+        "QL": [
+            68,
+            30
+        ]
+    },
+    "301": {
+        "answer": 9,
+        "equation": "result = QL[1]*QL[2]/QL[3]",
+        "QL": [
+            1,
+            15,
+            3,
+            5,
+            1
+        ]
+    },
+    "302": {
+        "answer": 26,
+        "equation": "result = QL[0]*QL[3]",
+        "QL": [
+            1,
+            75,
+            2,
+            26
+        ]
+    },
+    "303": {
+        "answer": 97,
+        "equation": "result = QL[0]*const2 + QL[1]*const3",
+        "QL": [
+            23,
+            17
+        ]
+    },
+    "304": {
+        "answer": 4,
+        "equation": "result = QL[0]-QL[2]-QL[3]",
+        "QL": [
+            14,
+            2,
+            3,
+            7
+        ]
+    },
+    "305": {
+        "answer": 158,
+        "equation": "result = QL[0]+ QL[0]*QL[1]+QL[2]",
+        "QL": [
+            36,
+            3,
+            14,
+            2
+        ]
+    },
+    "306": {
+        "answer": 280,
+        "equation": "result = QL[0]*QL[1]",
+        "QL": [
+            35,
+            8
+        ]
+    },
+    "307": {
+        "answer": 400,
+        "equation": "result = QL[0]*QL[1] + QL[2]*QL[3]",
+        "QL": [
+            42,
+            4,
+            29,
+            8
+        ]
+    },
+    "308": {
+        "answer": 441,
+        "equation": "result = QL[1]*QL[2]",
+        "QL": [
+            1,
+            98,
+            4.5
+        ]
+    },
+    "309": {
+        "answer": 72,
+        "equation": "result = QL[0]*(const60+QL[3])",
+        "QL": [
+            1,
+            7,
+            1,
+            12
+        ]
+    },
+    "310": {
+        "answer": 258,
+        "equation": "result = QL[0]*QL[1] + QL[2]*QL[3] + QL[4]*QL[5]",
+        "QL": [
+            23,
+            4,
+            15,
+            5,
+            13,
+            7
+        ]
+    },
+    "311": {
+        "answer": 96,
+        "equation": "result = QL[0] - QL[2]*QL[3] - QL[4]*QL[5] - QL[6]*QL[7]",
+        "QL": [
+            800,
+            1,
+            38,
+            8,
+            44,
+            5,
+            60,
+            3
+        ]
+    },
+    "312": {
+        "answer": 265,
+        "equation": "result = QL[0]-QL[1]",
+        "QL": [
+            290,
+            25
+        ]
+    },
+    "313": {
+        "answer": 6,
+        "equation": "result = QL[0]/QL[1]",
+        "QL": [
+            48,
+            8
+        ]
+    },
+    "314": {
+        "answer": 4,
+        "equation": "result = QL[2]/QL[1]",
+        "QL": [
+            3,
+            8,
+            32
+        ]
+    },
+    "315": {
+        "answer": 109,
+        "equation": "result = QL[0] + QL[0]*QL[1]+QL[2]",
+        "QL": [
+            13,
+            6,
+            18,
+            2
+        ]
+    },
+    "316": {
+        "answer": 10,
+        "equation": "result = QL[0]-QL[1]",
+        "QL": [
+            1000,
+            990
+        ]
+    },
+    "317": {
+        "answer": 60,
+        "equation": "result = QL[0]/QL[1] * (QL[3]+QL[5])",
+        "QL": [
+            200,
+            50,
+            1,
+            10,
+            1,
+            5,
+            2
+        ]
+    },
+    "318": {
+        "answer": 570,
+        "equation": "result = QL[0]+QL[1]",
+        "QL": [
+            340,
+            230
+        ]
+    },
+    "319": {
+        "answer": 7,
+        "equation": "result = QL[0]/QL[2]",
+        "QL": [
+            56,
+            2,
+            8,
+            1
+        ]
+    },
+    "320": {
+        "answer": 961,
+        "equation": "result = QL[0]+QL[1]",
+        "QL": [
+            385,
+            576
+        ]
+    },
+    "321": {
+        "answer": 45,
+        "equation": "result = QL[1]/QL[0]*QL[2]",
+        "QL": [
+            1000,
+            9,
+            5000
+        ]
+    },
+    "322": {
+        "answer": 8,
+        "equation": "result = QL[1]*QL[2]/QL[3]",
+        "QL": [
+            1,
+            12,
+            4,
+            6,
+            1
+        ]
+    },
+    "323": {
+        "answer": 100,
+        "equation": "result = (QL[2]-QL[0])/QL[1]",
+        "QL": [
+            5763,
+            4,
+            6163
+        ]
+    },
+    "324": {
+        "answer": 8,
+        "equation": "result = QL[3]/(QL[1]/QL[0] * QL[2])",
+        "QL": [
+            2,
+            6,
+            3,
+            72
+        ]
+    },
+    "325": {
+        "answer": 8,
+        "equation": "result = (QL[0]+QL[0]-QL[1])/QL[3]",
+        "QL": [
+            26,
+            4,
+            2,
+            6,
+            1
+        ]
+    },
+    "326": {
+        "answer": 2,
+        "equation": "result=QL[1]*QL[2] / const100",
+        "QL": [
+            1,
+            50,
+            4
+        ]
+    },
+    "327": {
+        "answer": 11,
+        "equation": "result=QL[2]//QL[0]",
+        "QL": [
+            8,
+            1,
+            94
+        ]
+    },
+    "328": {
+        "answer": 490,
+        "equation": "result = (QL[1]*const100+QL[2])*QL[3]",
+        "QL": [
+            1,
+            2,
+            45,
+            2
+        ]
+    },
+    "329": {
+        "answer": 6,
+        "equation": "result = (QL[0]*const12 + QL[1]) / QL[4]",
+        "QL": [
+            2,
+            6,
+            2,
+            1,
+            5
+        ]
+    },
+    "330": {
+        "answer": 1.90,
+        "equation": "result = (QL[0] + QL[1]/const100) - (QL[2]+QL[3]/const100) - QL[4]/const100",
+        "QL": [
+            4,
+            90,
+            2,
+            55,
+            45
+        ]
+    },
+    "331": {
+        "answer": 18,
+        "equation": "result = QL[1] * ((QL[2] / QL[3]) - const1)",
+        "QL": [
+            1,
+            3,
+            7,
+            1
+        ]
+    },
+    "332": {
+        "answer": 24,
+        "equation": "result = QL[1] * QL[2]",
+        "QL": [
+            1,
+            8,
+            3
+        ]
+    },
+    "333": {
+        "answer": 426,
+        "equation": "result = QL[1] * QL[2]",
+        "QL": [
+            2,
+            142,
+            3
+        ]
+    },
+    "334": {
+        "answer": 250,
+        "equation": "result = (((QL[0]-QL[1])*QL[2] + QL[3]) / (QL[0] - (QL[0]-QL[1]))) * QL[0]",
+        "QL": [
+            25,
+            3,
+            1,
+            8
+        ]
+    },
+    "335": {
+        "answer": 639,
+        "equation": "result = QL[0] * QL[2]",
+        "QL": [
+            213,
+            2,
+            3
+        ]
+    },
+    "336": {
+        "answer": 8,
+        "equation": "result=QL[0]",
+        "QL": [
+            8,
+            9,
+            9,
+            3
+        ]
+    },
+    "337": {
+        "answer": 37,
+        "equation": "result = QL[2] * const5 + QL[3]",
+        "QL": [
+            2,
+            3,
+            7,
+            2
+        ]
+    },
+    "338": {
+        "answer": 20,
+        "equation": "result = QL[0]*QL[1]",
+        "QL": [
+            4,
+            5
+        ]
+    },
+    "339": {
+        "answer": 6,
+        "equation": "result = (QL[0]*QL[1]) / QL[2]",
+        "QL": [
+            500,
+            12,
+            1000
+        ]
+    },
+    "340": {
+        "answer": 15,
+        "equation": "result = QL[1] * const3",
+        "QL": [
+            1,
+            5
+        ]
+    },
+    "341": {
+        "answer": 480,
+        "equation": "result = QL[1] * QL[2]",
+        "QL": [
+            1,
+            24,
+            20
+        ]
+    },
+    "342": {
+        "answer": 72,
+        "equation": "result = QL[1] * QL[2] * QL[3]",
+        "QL": [
+            1,
+            6,
+            3,
+            4
+        ]
+    },
+    "343": {
+        "answer": 510,
+        "equation": "result = QL[0] * (QL[2] / QL[1])",
+        "QL": [
+            15,
+            1,
+            34
+        ]
+    },
+    "344": {
+        "answer": 8,
+        "equation": "result = round(QL[2] / QL[1])",
+        "QL": [
+            1,
+            45.25,
+            345.75
+        ]
+    },
+    "345": {
+        "answer": 20,
+        "equation": "result = ((QL[3]+QL[0]) / (QL[1] * const1000 / QL[2]) * const60)",
+        "QL": [
+            80,
+            9,
+            5,
+            520
+        ]
+    },
+    "346": {
+        "answer": 5,
+        "equation": "var0 = QL[5]/(QL[2]**(QL[0]/QL[1]))\nvar1 = QL[5]/(QL[4]**(QL[0]/QL[3]))\nresult = abs(var0-var1)",
+        "QL": [
+            15,
+            3,
+            2,
+            5,
+            3,
+            864,
+            2,
+            15,
+            2
+        ]
+    },
+    "347": {
+        "answer": 23,
+        "equation": "result = (QL[1]*QL[9]) + (QL[3]*QL[11]) + (QL[5]*QL[13]) + (QL[7]*QL[15])",
+        "QL": [
+            1,
+            3,
+            2,
+            2,
+            3,
+            1,
+            4,
+            0,
+            1,
+            5,
+            2,
+            2,
+            3,
+            4,
+            4,
+            1
+        ]
+    },
+    "348": {
+        "answer": 17,
+        "equation": "result = (QL[0]*QL[1]) - (QL[2] * (QL[1]-const1))",
+        "QL": [
+            7,
+            3,
+            2
+        ]
+    },
+    "349": {
+        "answer": 6,
+        "equation": "result = (QL[0] - (QL[2]*const2)) / const2",
+        "QL": [
+            28,
+            2,
+            8
+        ]
+    },
+    "350": {
+        "answer": 0.1,
+        "equation": "result = (QL[0] * QL[1]) % QL[3]",
+        "QL": [
+            1.5,
+            15,
+            1,
+            0.4
+        ]
+    },
+    "351": {
+        "answer": 9,
+        "equation": "result = (QL[1]*const4) / QL[2]",
+        "QL": [
+            1,
+            18,
+            8
+        ]
+    },
+    "352": {
+        "answer": 1257,
+        "equation": "var0 = QL[0]*const100 + QL[1]*const10 + QL[2]*const1\nvar1 = var0-QL[5]\nresult = var0+var1",
+        "QL": [
+            7,
+            0,
+            8,
+            3,
+            2,
+            159,
+            2,
+            2
+        ]
+    },
+    "353": {
+        "answer": 1.54,
+        "equation": "result = ((QL[0]*QL[1])+QL[2])/const100",
+        "QL": [
+            15,
+            10,
+            4
+        ]
+    },
+    "354": {
+        "answer": 22,
+        "equation": "result = (QL[0]*QL[1])-QL[2]",
+        "QL": [
+            6,
+            5,
+            8
+        ]
+    },
+    "355": {
+        "answer": 75,
+        "equation": "result = (QL[2]*const100+QL[3])-(QL[1]-QL[0])",
+        "QL": [
+            32,
+            152,
+            1,
+            95
+        ]
+    },
+    "356": {
+        "answer": 2.33,
+        "equation": "result = ((QL[0]*QL[1])+QL[2])/QL[3]",
+        "QL": [
+            2.35,
+            5,
+            0.42,
+            5.23,
+            2
+        ]
+    },
+    "357": {
+        "answer": 10,
+        "equation": "result=QL[0]-QL[2]+const1 ",
+        "QL": [
+            20,
+            1,
+            11
+        ]
+    },
+    "358": {
+        "answer": 3,
+        "equation": "for var0 in range(QL[0], QL[1]):\n\tif var0>QL[0] and var0<QL[1]:\n\t\tresult = var0",
+        "QL": [
+            2,
+            4
+        ]
+    },
+    "359": {
+        "answer": 5,
+        "equation": "result=QL[0]-QL[2]+const1",
+        "QL": [
+            9,
+            1,
+            5
+        ]
+    },
+    "360": {
+        "answer": 4,
+        "equation": "result=QL[0]-QL[2]+const1",
+        "QL": [
+            5,
+            1,
+            2
+        ]
+    },
+    "361": {
+        "answer": 12,
+        "equation": "result=QL[0]-QL[1]+const1",
+        "QL": [
+            20,
+            9
+        ]
+    },
+    "362": {
+        "answer": 2,
+        "equation": "result=QL[0]-QL[2]+const1",
+        "QL": [
+            5,
+            1,
+            4
+        ]
+    },
+    "363": {
+        "answer": 8,
+        "equation": "result=QL[0]-QL[2]+const1",
+        "QL": [
+            10,
+            1,
+            3
+        ]
+    },
+    "364": {
+        "answer": 7,
+        "equation": "result=QL[0]-QL[1]+const1-const1",
+        "QL": [
+            9,
+            2
+        ]
+    },
+    "365": {
+        "answer": 5,
+        "equation": "result=QL[0]-(QL[1]-QL[2])",
+        "QL": [
+            9,
+            6,
+            2
+        ]
+    },
+    "366": {
+        "answer": 6,
+        "equation": "result=QL[0]-QL[2]+const1",
+        "QL": [
+            9,
+            1,
+            4
+        ]
+    },
+    "367": {
+        "answer": 3,
+        "equation": "result=QL[0]-QL[1]",
+        "QL": [
+            9,
+            6
+        ]
+    },
+    "368": {
+        "answer": 6,
+        "equation": "result=QL[0]-QL[1]",
+        "QL": [
+            8,
+            2
+        ]
+    },
+    "369": {
+        "answer": 10,
+        "equation": "result=QL[1]+QL[2]+const1",
+        "QL": [
+            1,
+            5,
+            4
+        ]
+    },
+    "370": {
+        "answer": 13,
+        "equation": "result=QL[1]-const1-const1",
+        "QL": [
+            1,
+            15
+        ]
+    },
+    "371": {
+        "answer": 5,
+        "equation": "result=QL[0]-QL[1]",
+        "QL": [
+            9,
+            4
+        ]
+    },
+    "372": {
+        "answer": 8,
+        "equation": "result=QL[1]+QL[2]+const1",
+        "QL": [
+            1,
+            3,
+            4,
+            1
+        ]
+    },
+    "373": {
+        "answer": 2,
+        "equation": "result=QL[2]-(QL[1]-QL[3])",
+        "QL": [
+            4,
+            8,
+            6,
+            4
+        ]
+    },
+    "374": {
+        "answer": 45,
+        "equation": "var1=const0\nfor var0 in range(QL[3],QL[6]+const1):\n    var1+=var0\nresult=var1 ",
+        "QL": [
+            10,
+            1,
+            2,
+            1,
+            2,
+            3,
+            9
+        ]
+    },
+    "375": {
+        "answer": 6,
+        "equation": "result=const6/QL[1] + const6/QL[1]",
+        "QL": [
+            1,
+            2
+        ]
+    },
+    "376": {
+        "answer": 9,
+        "equation": "var2=const0\nfor var0 in range(const1,const6+const1):\n    for var1 in range(const1,const6+const1):\n        if (var0+var1)%QL[1]==const0:\n            var2+=const1\nresult=var2 ",
+        "QL": [
+            2,
+            4
+        ]
+    },
+    "377": {
+        "answer": 0.33,
+        "equation": "var1=const0\nfor var0 in range(const1, QL[1]+const1):\n    if QL[1] % var0 == const0:\n        var1+=const1\nresult=var1/const6",
+        "QL": [
+            1,
+            5
+        ]
+    },
+    "378": {
+        "answer": 10,
+        "equation": "var0 = [QL[0],QL[1],QL[2],QL[3],QL[4]]\nresult = len(list(itertools.combinations(var0, QL[6])))",
+        "QL": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            5,
+            2,
+            2
+        ]
+    },
+    "379": {
+        "answer": 6,
+        "equation": "var0 = list(range(const4))\nresult = len(list(itertools.combinations(var0, QL[0])))",
+        "QL": [
+            2
+        ]
+    },
+    "380": {
+        "answer": 6,
+        "equation": "var0 = list(range(QL[1]+QL[0]-QL[1]-const1))\nresult = len(list(itertools.combinations(var0, (QL[0]-QL[1]))))",
+        "QL": [
+            7,
+            2,
+            1
+        ]
+    },
+    "381": {
+        "answer": 24,
+        "equation": "var0=[QL[1],QL[2],QL[3],QL[4]] \nresult = math.factorial(len(var0))",
+        "QL": [
+            4,
+            7,
+            2,
+            5,
+            9,
+            1,
+            4,
+            4
+        ]
+    },
+    "382": {
+        "answer": 6,
+        "equation": "var1=const0\nfor var0 in range(const1,const6+const1):\n    if var0%const2==const0:\n        var1+=const1\nresult=var1*const2",
+        "QL": [
+            1,
+            1
+        ]
+    },
+    "383": {
+        "answer": 3,
+        "equation": "result=const9/const3",
+        "QL": []
+    },
+    "384": {
+        "answer": 3,
+        "equation": "var0 = list(range(QL[0]))\nresult = len(list(itertools.combinations(var0, QL[1])))",
+        "QL": [
+            3,
+            2,
+            3,
+            2
+        ]
+    },
+    "385": {
+        "answer": 3,
+        "equation": "var0 = list(range(const2+QL[0]-const2-const1))\nresult = len(list(itertools.combinations(var0, (QL[0]-const2))))",
+        "QL": [
+            4,
+            1,
+            1
+        ]
+    },
+    "386": {
+        "answer": 307,
+        "equation": "var0=[QL[0],QL[1],QL[2],QL[3]]\nvar1=list(itertools.permutations(var0,QL[4]))\nvar2=[]\nfor var3,var4,var5 in var1:\n    if var3*const100+var4*const10+var5 >= const100:\n        var2.append(var3*const100+var4*const10+var5)\nresult=var2[QL[7]-const1]",
+        "QL": [
+            0,
+            3,
+            4,
+            7,
+            3,
+            1,
+            3,
+            2
+        ]
+    },
+    "387": {
+        "answer": 90,
+        "equation": "var0=const0\nfor var1 in range(const1000,int(math.pow(const10,const4))):\n    var2=(var1%const1000)//const100\n    var3=((var1%const1000)%const100)//const10\n    var4=var1%const10\n    if var2==var3 and var3==var4:\n        var0+=const1\nresult=var0",
+        "QL": []
+    },
+    "388": {
+        "answer": 14,
+        "equation": "var0=const0\nfor var1 in range(QL[0],QL[1]+const1):\n    var2=var1//const10\n    var3=var1%const10\n    if var2==QL[2] or var3==QL[2]:\n        var0+=const1\nresult=var0",
+        "QL": [
+            47,
+            97,
+            5
+        ]
+    },
+    "389": {
+        "answer": 6,
+        "equation": "var0=const0\nfor var1 in range(QL[0],QL[1]+QL[0]):\n    for var2 in range(var1,QL[1]+QL[0]):\n        if (var1+var2)%QL[4]==const0:\n            var0+=const1\nresult=var0",
+        "QL": [
+            1,
+            6,
+            2,
+            2,
+            4
+        ]
+    },
+    "390": {
+        "answer": 11,
+        "equation": "result = QL[4]-(QL[0]*const1000+QL[1]*const100+QL[2]*const10)",
+        "QL": [
+            7,
+            3,
+            8,
+            4,
+            7391
+        ]
+    },
+    "391": {
+        "answer": 5,
+        "equation": "result=(QL[0]*const1000+QL[1]*const100+const99)-QL[3]",
+        "QL": [
+            4,
+            9,
+            4,
+            4994
+        ]
+    },
+    "392": {
+        "answer": 5,
+        "equation": "var0=const0\nfor var1 in range(QL[0]+const1,QL[1]):\n    if var1%QL[2]==QL[3]:\n        var0+=const1\nresult=var0",
+        "QL": [
+            50,
+            100,
+            9,
+            1
+        ]
+    },
+    "393": {
+        "answer": 8,
+        "equation": "var0=const0\nfor var1 in range(int(pow(const10,QL[0]-const1)),int(pow(const10,QL[0]))):\n    var2=(var1%pow(const10,QL[0]))//const10\n    var3=((var1%pow(const10,QL[0]))%const10)//const10\n    var4=var1%const10\n    if var1 - (var4*const100+var3*const10+var2) ==QL[2] and var4!=const0:\n        var0+=const1\nresult=var0",
+        "QL": [
+            3,
+            3,
+            99
+        ]
+    },
+    "394": {
+        "answer": 4,
+        "equation": "var0=[QL[0],QL[1],QL[2],QL[3]]\nresult=len(var0)",
+        "QL": [
+            1,
+            3,
+            9,
+            27,
+            2,
+            1
+        ]
+    },
+    "395": {
+        "answer": 50,
+        "equation": "var0=const0\nfor var1 in range(const100,const1000):\n    if var1%QL[1]==const0 and var1%QL[2]==const0 and var1%QL[3]==const0:\n        var0+=const1\nresult=var0",
+        "QL": [
+            3,
+            2,
+            3,
+            9,
+            3
+        ]
+    },
+    "396": {
+        "answer": 273,
+        "equation": "var0=[]\nfor var1 in range(QL[0],QL[1]+const1):\n    if var1%QL[2]==const0:\n        var0.append(var1)\nresult=sum(var0)",
+        "QL": [
+            80,
+            100,
+            7
+        ]
+    },
+    "397": {
+        "answer": 45,
+        "equation": "var0=[QL[1],QL[2],QL[3],QL[4]]\nresult=max(var0)-min(var0)",
+        "QL": [
+            4,
+            53,
+            98,
+            69,
+            84
+        ]
+    },
+    "398": {
+        "answer": 0.3,
+        "equation": "result = QL[1] / ( const10 * QL[0] - const1)",
+        "QL": [
+            1,
+            2.7
+        ]
+    },
+    "399": {
+        "answer": 5,
+        "equation": "result= QL[1]-QL[0]+const1",
+        "QL": [
+            84,
+            88
+        ]
+    },
+    "400": {
+        "answer": 1743,
+        "equation": "var0=[QL[1],QL[2],QL[3]]\nresult=max(var0)*min(var0)",
+        "QL": [
+            3,
+            64,
+            7,
+            249
+        ]
+    },
+    "401": {
+        "answer": 8,
+        "equation": "result=QL[0]//QL[1]",
+        "QL": [
+            40,
+            5
+        ]
+    },
+    "402": {
+        "answer": 967,
+        "equation": "result=const9*const100+QL[1]*const10+(QL[3]-const1)",
+        "QL": [
+            3,
+            6,
+            4,
+            8,
+            3
+        ]
+    },
+    "403": {
+        "answer": 1,
+        "equation": "var0=[QL[0],QL[1],QL[2],QL[3]]\nresult=max(var0)//max(var0)",
+        "QL": [
+            1.875,
+            3,
+            0.25,
+            2.4
+        ]
+    },
+    "404": {
+        "answer": 1100999,
+        "equation": "var0=[]\nfor var1 in range(int(math.pow(const10,QL[3]-const1)),int(math.pow(const10,QL[3])-const1)):\n    if (var1//const1000)%const10==QL[4]:\n        var0.append(var1)\nresult=max(var0)+min(var0)",
+        "QL": [
+            0,
+            9,
+            1,
+            6,
+            5
+        ]
+    },
+    "405": {
+        "answer": 9,
+        "equation": "result=(QL[1]-const1)//const2 -QL[0]//const2",
+        "QL": [
+            11,
+            30
+        ]
+    },
+    "406": {
+        "answer": 621,
+        "equation": "var0=[QL[1],QL[2],QL[3],QL[4]]\nvar1 = list(itertools.permutations(var0, QL[5]))\nvar2=[]\nfor var3,var4,var5 in var1:\n    var2.append(var3*const100+var4*const10+var5)\nvar2.sort(reverse=True)\nfor var6 in var2:\n    if var6%QL[9]==const0:\n        result=var6\n        break;",
+        "QL": [
+            4,
+            1,
+            2,
+            5,
+            6,
+            3,
+            1,
+            3,
+            3,
+            9
+        ]
+    },
+    "407": {
+        "answer": 18,
+        "equation": "var0=[QL[0],QL[1],QL[2],QL[3],QL[4],QL[5],QL[6],QL[7]]\nvar1 = const1\nvar2 = const0\nvar4 = const0\nfor var3 in var0:\n    if var2 == QL[8]-const1 or var2 == QL[9]-const1 or var2 == QL[10] -const1:\n        var4 += var3\n    var2 += const1\nresult = var4",
+        "QL": [
+            8,
+            5,
+            3,
+            4,
+            7,
+            9,
+            6,
+            1,
+            2,
+            4,
+            6
+        ]
+    },
+    "408": {
+        "answer": 4,
+        "equation": "var0=[QL[1],QL[2],QL[3],QL[4],QL[5]]\nvar1 = list(itertools.combinations(var0, QL[6]))\nfor var2,var3 in var1:\n    if var2+var3==QL[7]:\n        result=abs(var2-var3)",
+        "QL": [
+            5,
+            7,
+            9,
+            6,
+            5,
+            1,
+            2,
+            14,
+            2
+        ]
+    },
+    "409": {
+        "answer": 53,
+        "equation": "var0=[QL[1],QL[2],QL[3],QL[4]]\nvar1=list(itertools.permutations(var0,QL[5]))\nvar2=[]\nfor var3,var4 in var1:\n    if var3*const10+var4>=const10:\n        var2.append(var3*const10+var4)\nresult=max(var2)+min(var2)",
+        "QL": [
+            4,
+            1,
+            0,
+            3,
+            4,
+            2,
+            1,
+            2
+        ]
+    },
+    "410": {
+        "answer": 3,
+        "equation": "var0=[QL[0],QL[1],QL[2],QL[3],QL[4],QL[5],QL[6]]\nresult=len(var0)-var0.index(min(var0))",
+        "QL": [
+            2,
+            6,
+            4,
+            8,
+            1,
+            5,
+            9
+        ]
+    },
+    "411": {
+        "answer": 54,
+        "equation": "var0=[QL[1],QL[2],QL[3],QL[4]]\nvar1=list(itertools.permutations(var0,QL[5]))\nvar2=[]\nfor var3, var4 in var1:\n    var2.append(var3*const10+var4)\nresult=max(var2)",
+        "QL": [
+            4,
+            4,
+            1,
+            5,
+            2,
+            2,
+            2,
+            2
+        ]
+    },
+    "412": {
+        "answer": 2259,
+        "equation": "var0=[QL[1],QL[2],QL[3],QL[4]]\nvar1=list(itertools.permutations(var0,QL[5]))\nvar2=const0\nfor var3, var4, var5 in var1:\n    if var3*const100+var4*const10+var5 > QL[9]:\n        var2+=var3*const100+var4*const10+var5\nresult=var2",
+        "QL": [
+            4,
+            0,
+            3,
+            6,
+            7,
+            3,
+            1,
+            3,
+            3,
+            733
+        ]
+    },
+    "413": {
+        "answer": 51,
+        "equation": "var0=[QL[1],QL[2],QL[3],QL[4]]\nvar1=list(itertools.permutations(var0,QL[5]))\nvar2=[]\nfor var3, var4 in var1:\n    var2.append(var3*const10+var4)\nresult=max(var2)-min(var2)",
+        "QL": [
+            4,
+            2,
+            4,
+            5,
+            7,
+            2,
+            1,
+            2,
+            2,
+            2
+        ]
+    },
+    "414": {
+        "answer": 78,
+        "equation": "var0=const0\nfor var1 in range(QL[0]+const1,QL[1]):\n    if var1//const100 ==var1%const10:\n        var0+=const1\nresult=var0",
+        "QL": [
+            210,
+            990,
+            3,
+            2
+        ]
+    },
+    "415": {
+        "answer": 100,
+        "equation": "result= abs(int(math.ceil(QL[0]/const100))*const100 - round(QL[0],-const2))",
+        "QL": [
+            1549,
+            2
+        ]
+    },
+    "416": {
+        "answer": 41,
+        "equation": "var0=const0\nfor var1 in range(const1, QL[0]):\n    if var1%QL[1]==const0 and var1%QL[2]==const0:\n        var0+=const1\nresult=var0",
+        "QL": [
+            1000,
+            8,
+            12
+        ]
+    },
+    "417": {
+        "answer": 441,
+        "equation": "result=((QL[1]*QL[0])//(QL[0]-const1))*QL[2]",
+        "QL": [
+            7,
+            54,
+            7
+        ]
+    },
+    "418": {
+        "answer": 189,
+        "equation": "result=QL[1]-QL[1]%QL[0]",
+        "QL": [
+            27,
+            200
+        ]
+    },
+    "419": {
+        "answer": 24,
+        "equation": "result = const4 * (QL[1]/const5)",
+        "QL": [
+            2,
+            30
+        ]
+    },
+    "420": {
+        "answer": 3,
+        "equation": "var0 = QL[2] // QL[1]\nresult = var0 // const10",
+        "QL": [
+            5,
+            2,
+            70
+        ]
+    },
+    "421": {
+        "answer": 244,
+        "equation": "result=QL[2]*QL[3]-QL[5]",
+        "QL": [
+            3,
+            1,
+            16,
+            29,
+            2,
+            220
+        ]
+    },
+    "422": {
+        "answer": 12,
+        "equation": "result=(QL[0]-QL[1])*QL[2]",
+        "QL": [
+            9,
+            5,
+            3
+        ]
+    },
+    "423": {
+        "answer": 20,
+        "equation": "result = QL[0]*QL[1]/QL[2]",
+        "QL": [
+            40,
+            30,
+            60
+        ]
+    },
+    "424": {
+        "answer": 396,
+        "equation": "result=(QL[0]+QL[1])*QL[3]",
+        "QL": [
+            19,
+            14,
+            1,
+            12
+        ]
+    },
+    "425": {
+        "answer": 4094,
+        "equation": "result=(QL[1]-QL[3])*QL[4]",
+        "QL": [
+            1,
+            80,
+            89,
+            34,
+            89
+        ]
+    },
+    "426": {
+        "answer": 7,
+        "equation": "result=(QL[1]-QL[0])",
+        "QL": [
+            5098,
+            5105
+        ]
+    },
+    "427": {
+        "answer": 59,
+        "equation": "result=QL[0]*QL[1] + (QL[1]-QL[2])",
+        "QL": [
+            6,
+            9,
+            4
+        ]
+    },
+    "428": {
+        "answer": 49,
+        "equation": "for var0 in range(QL[3],QL[4]):\n    if var0 % QL[1] == QL[2]:\n        var1 = var0\nresult = var1 ",
+        "QL": [
+            1,
+            8,
+            1,
+            45,
+            55
+        ]
+    },
+    "429": {
+        "answer": 36,
+        "equation": "for var0 in range(QL[0],QL[1]):\n    if var0 % QL[2] == const0 and var0%QL[3] == QL[4]:\n        var1 = var0\nresult = var1 ",
+        "QL": [
+            10,
+            50,
+            9,
+            7,
+            1
+        ]
+    },
+    "430": {
+        "answer": 63,
+        "equation": "for var0 in range(QL[0],QL[1]):\n    if var0 % QL[2] == QL[4] and var0%QL[3] == QL[4]:\n        var1 = var0\nresult = var1 ",
+        "QL": [
+            50,
+            80,
+            5,
+            6,
+            3
+        ]
+    },
+    "431": {
+        "answer": 138,
+        "equation": "result=QL[0]/QL[1]*QL[5]",
+        "QL": [
+            92,
+            2,
+            1,
+            2,
+            1,
+            3
+        ]
+    },
+    "432": {
+        "answer": 19,
+        "equation": "for var0 in range(const1,QL[0]):\n    if var0 % QL[1] == QL[2] and var0%QL[3] == QL[4]:\n        var1 = var0\nresult = var1 ",
+        "QL": [
+            46,
+            7,
+            5,
+            5,
+            4
+        ]
+    },
+    "433": {
+        "answer": 6954,
+        "equation": "result=QL[3]*(QL[4]*QL[1]+QL[5])",
+        "QL": [
+            1,
+            14,
+            1,
+            57,
+            8,
+            10
+        ]
+    },
+    "434": {
+        "answer": 2700,
+        "equation": "result=(QL[2]-QL[1])*QL[0]",
+        "QL": [
+            30,
+            30,
+            120
+        ]
+    },
+    "435": {
+        "answer": 3241,
+        "equation": "result=(QL[2]+QL[1])*QL[0]",
+        "QL": [
+            7,
+            7,
+            456
+        ]
+    },
+    "436": {
+        "answer": 1196,
+        "equation": "result=(QL[2]-QL[1])*QL[0]",
+        "QL": [
+            92,
+            92,
+            105
+        ]
+    },
+    "437": {
+        "answer": 3348,
+        "equation": "result=QL[0]*(QL[1]-QL[0])",
+        "QL": [
+            62,
+            116
+        ]
+    },
+    "438": {
+        "answer": 2025,
+        "equation": "result= (QL[3]/const2)* (QL[3]/const2)",
+        "QL": [
+            2,
+            2,
+            2,
+            90
+        ]
+    },
+    "439": {
+        "answer": 19900,
+        "equation": "result=(QL[0]+QL[1])",
+        "QL": [
+            10000,
+            9900
+        ]
+    },
+    "440": {
+        "answer": 19,
+        "equation": "result=QL[0]-QL[1]",
+        "QL": [
+            72,
+            53
+        ]
+    },
+    "441": {
+        "answer": 6,
+        "equation": "result=(QL[7]-(QL[0]*QL[1]+QL[2]*QL[3]+QL[4]*QL[5]))/QL[8]",
+        "QL": [
+            5,
+            4,
+            4,
+            6,
+            3,
+            2,
+            2,
+            62,
+            2
+        ]
+    },
+    "442": {
+        "answer": 17,
+        "equation": "result=QL[0]*QL[1]+QL[2]",
+        "QL": [
+            2,
+            8,
+            1
+        ]
+    },
+    "443": {
+        "answer": 41,
+        "equation": "result=QL[0]*QL[1]+QL[2]",
+        "QL": [
+            3,
+            13,
+            2
+        ]
+    },
+    "444": {
+        "answer": 88,
+        "equation": "result=QL[0]*QL[1]+QL[2]",
+        "QL": [
+            7,
+            12,
+            4
+        ]
+    },
+    "445": {
+        "answer": 19,
+        "equation": "result=(QL[0]*QL[1]+QL[2])//const5",
+        "QL": [
+            4,
+            23,
+            3,
+            5
+        ]
+    },
+    "446": {
+        "answer": 17,
+        "equation": "result=(QL[3]-QL[2]*QL[1])/QL[0]",
+        "QL": [
+            6,
+            8,
+            12,
+            198
+        ]
+    },
+    "447": {
+        "answer": 112,
+        "equation": "for var1 in range(const10 ** (QL[2]-const1), const10 ** (QL[2])):\n    if var1 % (QL[0]*QL[1]) == const0:\n        result = var1\n        break",
+        "QL": [
+            4,
+            7,
+            3
+        ]
+    },
+    "448": {
+        "answer": 24,
+        "equation": "var0 = math.sqrt(QL[2]/QL[3])\nvar1 = QL[3]*var0\nresult=var0 + var1",
+        "QL": [
+            2,
+            2,
+            108,
+            3,
+            2
+        ]
+    },
+    "449": {
+        "answer": 12,
+        "equation": "var0 = math.sqrt(QL[2]/QL[3])\nvar1 = QL[3]*var0\nresult=var0 + var1",
+        "QL": [
+            2,
+            2,
+            32,
+            2,
+            2
+        ]
+    },
+    "450": {
+        "answer": 10,
+        "equation": "var0 = math.sqrt(QL[2]/QL[3])\nvar1 = QL[3]*var0\nresult=var0 + var1",
+        "QL": [
+            2,
+            2,
+            16,
+            4,
+            2
+        ]
+    },
+    "451": {
+        "answer": 132,
+        "equation": "result=QL[0]*QL[1]/(QL[0]+const1)",
+        "QL": [
+            3,
+            176,
+            2
+        ]
+    },
+    "452": {
+        "answer": 4000,
+        "equation": "var0=(QL[5]-QL[2])/(QL[0]-QL[1])\nvar1=(QL[2]-QL[1]*var0)/QL[0]\nresult=QL[6]*var1+QL[7]*var0",
+        "QL": [
+            5,
+            3,
+            3990,
+            5,
+            5,
+            5450,
+            3,
+            4
+        ]
+    },
+    "453": {
+        "answer": 1710,
+        "equation": "var0=(QL[5]*const3-QL[2]*const2)/(QL[3]*const3-QL[0]*const2)\nresult = var0 * QL[6]",
+        "QL": [
+            4,
+            3,
+            4770,
+            5,
+            2,
+            4510,
+            3
+        ]
+    },
+    "454": {
+        "answer": 6,
+        "equation": "var0 = (QL[0]-QL[1])/const2\nvar1 = var0+QL[1]\nresult = var1//var0",
+        "QL": [
+            49,
+            35
+        ]
+    },
+    "455": {
+        "answer": 72,
+        "equation": "var0 = math.sqrt(QL[1]/QL[0])\nvar1 = var0*QL[0]\nresult = const2*(var0+var1)",
+        "QL": [
+            3,
+            243,
+            2
+        ]
+    },
+    "456": {
+        "answer": 49,
+        "equation": "var0=QL[0]\nvar1=var0*QL[1]+QL[2]\nresult=(var0+var1)*QL[3]-QL[4]",
+        "QL": [
+            11,
+            2,
+            3,
+            2,
+            23
+        ]
+    },
+    "457": {
+        "answer": 4,
+        "equation": "result=QL[0]/(QL[1]+const1)",
+        "QL": [
+            20,
+            4
+        ]
+    },
+    "458": {
+        "answer": 32,
+        "equation": "var0 = math.sqrt(QL[2]/QL[3])\nvar1 = QL[3]*var0\nresult=var0 + var1",
+        "QL": [
+            2,
+            2,
+            192,
+            3,
+            2
+        ]
+    },
+    "459": {
+        "answer": 30,
+        "equation": "result=QL[0]/(QL[2]-QL[4])",
+        "QL": [
+            90,
+            1,
+            7,
+            1,
+            4
+        ]
+    },
+    "460": {
+        "answer": 24,
+        "equation": "result=(QL[0]-QL[1])/QL[2]",
+        "QL": [
+            123,
+            27,
+            4
+        ]
+    },
+    "461": {
+        "answer": 9,
+        "equation": "result=(QL[0]*QL[2]+QL[3]-QL[4])/QL[0] ",
+        "QL": [
+            6,
+            1,
+            12,
+            8,
+            26,
+            1
+        ]
+    },
+    "462": {
+        "answer": 9,
+        "equation": "var0=QL[0]*QL[1]-QL[2]\nresult=var0//QL[4]",
+        "QL": [
+            6,
+            8,
+            3,
+            2,
+            5,
+            1
+        ]
+    },
+    "463": {
+        "answer": 9,
+        "equation": "var1=QL[0]*QL[4]+QL[1]\nvar2=QL[2]*QL[4]+QL[3]\nresult=(var1+var2)//QL[4]",
+        "QL": [
+            4,
+            5,
+            4,
+            3,
+            8
+        ]
+    },
+    "464": {
+        "answer": 156,
+        "equation": "result = (((QL[4] / QL[3]) - QL[2]) - QL[0]) * QL[1]",
+        "QL": [
+            19,
+            12,
+            12,
+            19,
+            836
+        ]
+    },
+    "465": {
+        "answer": 2145,
+        "equation": "result = (QL[1] - QL[0]) * QL[0]",
+        "QL": [
+            39,
+            94
+        ]
+    },
+    "466": {
+        "answer": 3650,
+        "equation": "result = (QL[1] + QL[0]) * QL[0]",
+        "QL": [
+            50,
+            23
+        ]
+    },
+    "467": {
+        "answer": 1044,
+        "equation": "result = (QL[1] - QL[0]) * QL[0]",
+        "QL": [
+            348,
+            351
+        ]
+    },
+    "468": {
+        "answer": 1,
+        "equation": "result = (QL[2] * QL[1] +QL[3]) % QL[0]",
+        "QL": [
+            5,
+            6,
+            13,
+            3
+        ]
+    },
+    "469": {
+        "answer": 35,
+        "equation": "result = (QL[2] + QL[1]) - QL[0]",
+        "QL": [
+            36,
+            63,
+            8
+        ]
+    },
+    "470": {
+        "answer": 1842,
+        "equation": "var0 = const10*(QL[6]%const10) + QL[6]//const10 \nvar1 = QL[7]+QL[6] \nvar1 = const10*(var1//const10) + QL[3] \nresult = var1 - var0",
+        "QL": [
+            4,
+            2,
+            4,
+            9,
+            6,
+            2,
+            75,
+            1821,
+            1
+        ]
+    },
+    "471": {
+        "answer": 32,
+        "equation": "result  = QL[0] + QL[1] -QL[2]",
+        "QL": [
+            46,
+            15,
+            29
+        ]
+    },
+    "472": {
+        "answer": 16,
+        "equation": "result = QL[2] / QL[1] * QL[0]",
+        "QL": [
+            2,
+            5,
+            40
+        ]
+    },
+    "473": {
+        "answer": 532,
+        "equation": "result = (QL[1] - QL[0])  * QL[0]",
+        "QL": [
+            38,
+            52
+        ]
+    },
+    "474": {
+        "answer": 4,
+        "equation": "result = (QL[1] - QL[0])  - QL[0]",
+        "QL": [
+            2,
+            8
+        ]
+    },
+    "475": {
+        "answer": 70,
+        "equation": "result = (QL[1] + QL[0])  + QL[0]",
+        "QL": [
+            16,
+            38
+        ]
+    },
+    "476": {
+        "answer": 38,
+        "equation": "result = QL[0]-(QL[1]-QL[0])",
+        "QL": [
+            65,
+            92
+        ]
+    },
+    "477": {
+        "answer": 378,
+        "equation": "result = (QL[3] / QL[2])  * QL[1]",
+        "QL": [
+            3,
+            2,
+            3,
+            567
+        ]
+    },
+    "478": {
+        "answer": 2.63,
+        "equation": "result = (QL[1]-QL[0])-QL[0]",
+        "QL": [
+            2.96,
+            8.55
+        ]
+    },
+    "479": {
+        "answer": 2768,
+        "equation": "var0 = const10 ** (QL[1] - const1) + QL[0] - const1\nvar1 = const10 ** (QL[3] - const1) + QL[2] - const1\nresult = QL[4] -var1 + var0",
+        "QL": [
+            131,
+            4,
+            139,
+            3,
+            1876
+        ]
+    },
+    "480": {
+        "answer": 6,
+        "equation": "result = ((QL[3] / QL[2])  + QL[1]) / QL[0]",
+        "QL": [
+            2,
+            8,
+            6,
+            24,
+            2
+        ]
+    },
+    "481": {
+        "answer": 5382,
+        "equation": "result = (QL[1] - QL[0]) * QL[0]",
+        "QL": [
+            69,
+            147
+        ]
+    },
+    "482": {
+        "answer": 551,
+        "equation": "result = (QL[1] + QL[0])  + QL[0]",
+        "QL": [
+            156,
+            239
+        ]
+    },
+    "483": {
+        "answer": 9,
+        "equation": "var0 = QL[2] * QL[1] + QL[3]\nresult = (var0//QL[0]) * (var0%QL[0])",
+        "QL": [
+            6,
+            4,
+            13,
+            3
+        ]
+    },
+    "484": {
+        "answer": 63408,
+        "equation": "var0 = QL[2] * QL[1] + QL[3]\nresult = var0 * QL[0]",
+        "QL": [
+            48,
+            48,
+            27,
+            25
+        ]
+    },
+    "485": {
+        "answer": 1,
+        "equation": "result = (QL[4] / (QL[3] * QL[2]))  / QL[0] // QL[1]",
+        "QL": [
+            6.5,
+            8.4,
+            6.5,
+            8.4,
+            3903.9
+        ]
+    },
+    "486": {
+        "answer": 296,
+        "equation": "var0 = QL[6] / QL[5] * QL[4] + QL[3]\nresult = (var0 + QL[0]) * QL[1] /QL[2]",
+        "QL": [
+            7,
+            4,
+            3,
+            7,
+            4,
+            3,
+            156
+        ]
+    },
+    "487": {
+        "answer": 100,
+        "equation": "result = (QL[1] + QL[0])  + QL[0]",
+        "QL": [
+            6,
+            88
+        ]
+    },
+    "488": {
+        "answer": 40,
+        "equation": "result = QL[0] * QL[1]",
+        "QL": [
+            8,
+            5
+        ]
+    },
+    "489": {
+        "answer": 4,
+        "equation": "var0 = (QL[0] + QL[1]) / QL[2]\nresult = QL[0] - var0",
+        "QL": [
+            15,
+            7,
+            2
+        ]
+    },
+    "490": {
+        "answer": 8360,
+        "equation": "result = (QL[2] - QL[1])  * QL[0]",
+        "QL": [
+            95,
+            59,
+            147
+        ]
+    },
+    "491": {
+        "answer": 0.07,
+        "equation": "result = (QL[2] - QL[1])  - QL[0]",
+        "QL": [
+            4.04,
+            8.08,
+            12.19
+        ]
+    },
+    "492": {
+        "answer": 15,
+        "equation": "result = QL[0] - (QL[1] - QL[0])",
+        "QL": [
+            24,
+            33
+        ]
+    },
+    "493": {
+        "answer": 73,
+        "equation": "result = (QL[0] - QL[1])  + QL[0]",
+        "QL": [
+            56,
+            39
+        ]
+    },
+    "494": {
+        "answer": 3,
+        "equation": "var0 = (QL[1] + QL[2]) / QL[0]\nvar1 = (QL[4] + QL[5]) / QL[3]\nresult = abs(var0 - var1)",
+        "QL": [
+            9,
+            35,
+            1,
+            6,
+            40,
+            2
+        ]
+    },
+    "495": {
+        "answer": 820,
+        "equation": "result = QL[0] * QL[1]  + QL[2] * QL[3]",
+        "QL": [
+            100,
+            3,
+            10,
+            52
+        ]
+    },
+    "496": {
+        "answer": 36,
+        "equation": "var0 = QL[0] - QL[1] \nresult = var0 - QL[2]",
+        "QL": [
+            54,
+            9,
+            9
+        ]
+    },
+    "497": {
+        "answer": 22,
+        "equation": "result = (QL[0] + QL[1])  - QL[2]",
+        "QL": [
+            54,
+            36,
+            68
+        ]
+    },
+    "498": {
+        "answer": 7,
+        "equation": "result = (QL[2] * (QL[1]/QL[0]))  - QL[3]",
+        "QL": [
+            1,
+            4,
+            8,
+            25
+        ]
+    },
+    "499": {
+        "answer": 66,
+        "equation": "result = QL[0] + QL[0] * QL[1] + QL[0] * QL[2]",
+        "QL": [
+            6,
+            4,
+            6
+        ]
+    },
+    "500": {
+        "answer": 12,
+        "equation": "result = (QL[0] - QL[1]) /const2",
+        "QL": [
+            27,
+            3
+        ]
+    },
+    "501": {
+        "answer": 866,
+        "equation": "result = (QL[1] + QL[0])  + QL[0]",
+        "QL": [
+            365,
+            136
+        ]
+    },
+    "502": {
+        "answer": 30,
+        "equation": "result = (QL[2] / QL[1])  * QL[0]",
+        "QL": [
+            5,
+            3,
+            18
+        ]
+    },
+    "503": {
+        "answer": 3030,
+        "equation": "var0 = QL[4] - QL[2] * QL[3]  \nresult = var0 + QL[0] * QL[1]\n",
+        "QL": [
+            10,
+            3,
+            100,
+            3,
+            3300
+        ]
+    },
+    "504": {
+        "answer": 884,
+        "equation": "result = (QL[1] + QL[0])  * QL[0]",
+        "QL": [
+            17,
+            35
+        ]
+    },
+    "505": {
+        "answer": 1645,
+        "equation": "result = (QL[1] - QL[0])  * QL[0]",
+        "QL": [
+            35,
+            82
+        ]
+    },
+    "506": {
+        "answer": 3,
+        "equation": "result = (QL[2] * QL[1])  / QL[0]",
+        "QL": [
+            8,
+            4,
+            6
+        ]
+    },
+    "507": {
+        "answer": 10,
+        "equation": "result = (QL[2] * QL[1] + QL[3])  // QL[0]",
+        "QL": [
+            9,
+            6,
+            16,
+            2
+        ]
+    },
+    "508": {
+        "answer": 6298,
+        "equation": "result = (QL[1] - QL[0]) * QL[0]",
+        "QL": [
+            94,
+            161
+        ]
+    },
+    "509": {
+        "answer": 280,
+        "equation": "var0 = QL[4] - QL[2] * QL[3] \nresult = var0 * QL[0] + QL[1]\n",
+        "QL": [
+            6,
+            4,
+            6,
+            4,
+            70
+        ]
+    },
+    "510": {
+        "answer": 180,
+        "equation": "var0 = QL[3] + QL[4] \nvar1 = (var0//(const10**(const3-const1)))%const10 \nvar2 = (var0//(const10**(const2-const1)))%const10 \nvar3 = var2 * const10**(const2) + var1 * const10**(const1) + var0 % const10 \nresult = abs(var3 - var0)\n",
+        "QL": [
+            3,
+            3,
+            3,
+            268,
+            379,
+            3,
+            3
+        ]
+    },
+    "511": {
+        "answer": 9,
+        "equation": "result = (QL[2] * QL[1])  / QL[0]",
+        "QL": [
+            6,
+            9,
+            6
+        ]
+    },
+    "512": {
+        "answer": 6,
+        "equation": "result = (QL[2] * QL[1]+ QL[3]) % QL[0]",
+        "QL": [
+            9,
+            6,
+            14,
+            3
+        ]
+    },
+    "513": {
+        "answer": 12,
+        "equation": "result = (QL[2] + QL[1]) // QL[0]",
+        "QL": [
+            8,
+            8,
+            88
+        ]
+    },
+    "514": {
+        "answer": 62,
+        "equation": "result = (QL[2] * QL[1] + QL[3]) // QL[0]",
+        "QL": [
+            6,
+            3,
+            125,
+            2
+        ]
+    },
+    "515": {
+        "answer": 6.89,
+        "equation": "result = (QL[1] + QL[0]) + QL[0]",
+        "QL": [
+            "13/9",
+            4
+        ]
+    },
+    "516": {
+        "answer": 81,
+        "equation": "var0 = QL[0] / const4 \nresult = var0 * var0",
+        "QL": [
+            36,
+            2,
+            2
+        ]
+    },
+    "517": {
+        "answer": 447,
+        "equation": "result = (QL[7] * const60 * const60 + QL[8] * const60 + QL[9]) - (QL[2] * const60 * const60 + QL[3] * const60 + QL[4])",
+        "QL": [
+            1,
+            1,
+            2,
+            4,
+            48,
+            2,
+            1,
+            2,
+            12,
+            15,
+            1,
+            2
+        ]
+    },
+    "518": {
+        "answer": 26,
+        "equation": "result = QL[2] * const1000 // QL[1]",
+        "QL": [
+            1,
+            150,
+            4
+        ]
+    },
+    "519": {
+        "answer": 65,
+        "equation": "result = QL[0] - QL[1] + const1",
+        "QL": [
+            81,
+            17
+        ]
+    },
+    "520": {
+        "answer": 39,
+        "equation": "result = QL[0] - QL[1] + const1",
+        "QL": [
+            50,
+            12
+        ]
+    },
+    "521": {
+        "answer": 13,
+        "equation": "result = QL[0] - QL[1] + const1",
+        "QL": [
+            60,
+            48
+        ]
+    },
+    "522": {
+        "answer": 3,
+        "equation": "result = QL[0] - QL[1] + const1",
+        "QL": [
+            7,
+            5
+        ]
+    },
+    "523": {
+        "answer": 2,
+        "equation": "result = QL[1] - QL[2] + const1 ",
+        "QL": [
+            1,
+            5,
+            4
+        ]
+    },
+    "524": {
+        "answer": 5,
+        "equation": "var2 = QL[2] + QL[0]\nvar1 = QL[1] + QL[0]\nresult = abs(var1 - var2)",
+        "QL": [
+            10.85,
+            8.46,
+            3.46
+        ]
+    },
+    "525": {
+        "answer": 6102,
+        "equation": "result = QL[6]-(QL[0] * QL[1] + QL[2] * QL[3] + QL[4] * QL[5])",
+        "QL": [
+            1000,
+            3,
+            100,
+            2,
+            10,
+            1,
+            9312
+        ]
+    },
+    "526": {
+        "answer": 7,
+        "equation": "var0 = [QL[0], QL[1], QL[2], QL[3], QL[4], QL[5]]\nif QL[7] % len(var0) == len(var0) - const6:\n    var1 = QL[5]\nelif QL[7] % len(var0) == len(var0) - const5:\n    var1 = QL[0]\nelif QL[7] % len(var0) == len(var0) - const4:\n    var1 = QL[1]\nelif QL[7] % len(var0) == len(var0) - const3:\n    var1 = QL[2]\nelif QL[7] % len(var0) == len(var0) - const2:\n    var1 = QL[3]\nelif QL[7] % len(var0) == len(var0) - const1:\n    var1 = QL[4]\n\nresult = var1",
+        "QL": [
+            4,
+            7,
+            1,
+            4,
+            7,
+            1,
+            4,
+            29
+        ]
+    },
+    "527": {
+        "answer": "지민",
+        "equation": "if QL[0] - QL[1] > QL[2] - QL[3]:\n    result = NL[1]\nelse:\n    result = NL[4]",
+        "QL": [
+            10,
+            3,
+            5,
+            2
+        ]
+    },
+    "528": {
+        "answer": "유정",
+        "equation": "if QL[1] > QL[0] - QL[1]:\n    result = NL[8]\nelse:\n    result = NL[9]",
+        "QL": [
+            10,
+            6
+        ]
+    },
+    "529": {
+        "answer": 6,
+        "equation": "result = QL[0] + QL[1]",
+        "QL": [
+            4,
+            2
+        ]
+    },
+    "530": {
+        "answer": "석진",
+        "equation": "if QL[0] < QL[1] and QL[0] < QL[2]:\n    result = NL[0]\nelif QL[1] < QL[0] and QL[1] < QL[2]:\n    result = NL[1]\nelse:\n    result = NL[2]",
+        "QL": [
+            24,
+            28,
+            21,
+            1
+        ]
+    },
+    "531": {
+        "answer": "지민",
+        "equation": "if QL[0] > QL[1] - QL[2] and QL[0] > QL[3] + QL[4]:\n    result = NL[2]\nelif QL[1] - QL[2] > QL[0] and QL[1] - QL[2] > QL[3] + QL[4]:\n    result = NL[1]\nelse:\n    result = NL[5]",
+        "QL": [
+            7,
+            9,
+            1,
+            5,
+            1
+        ]
+    },
+    "532": {
+        "answer": 19,
+        "equation": "if QL[0] > QL[1]:\n    result = QL[1]\nelse:\n    result = QL[0]",
+        "QL": [
+            26,
+            19
+        ]
+    },
+    "533": {
+        "answer": 40,
+        "equation": "if QL[0] > QL[1] * QL[2]:\n    result = QL[0]\nelse:\n    result = QL[1] * QL[2]",
+        "QL": [
+            31,
+            10,
+            4
+        ]
+    },
+    "534": {
+        "answer": 46,
+        "equation": "var0 = [QL[0], QL[1], QL[2], QL[3], QL[4]]\nvar2 = const0\nfor var1 in var0:\n    if var1 > QL[5] and var1 < QL[6]:\n        var2 += var1\nresult = var2",
+        "QL": [
+            33,
+            26,
+            19,
+            45,
+            20,
+            19,
+            30
+        ]
+    },
+    "535": {
+        "answer": 1,
+        "equation": "result = QL[0] - QL[1] - QL[2]",
+        "QL": [
+            9,
+            4,
+            4,
+            1
+        ]
+    },
+    "536": {
+        "answer": 708,
+        "equation": "if QL[0] < QL[1] or QL[0] < QL[2]:\n    if QL[1] < QL[2]:\n        result = QL[1]\n    else:\n        result = QL[2]\nelif QL[1] < QL[0] or QL[1] < QL[2]:\n    if QL[0] < QL[2]:\n        result = QL[0]\n    else:\n        result = QL[2]\nelif QL[2] < QL[0] or QL[2] < QL[1]:\n    if QL[1] < QL[0]:\n        result = QL[1]\n    else:\n        result = QL[0]",
+        "QL": [
+            625,
+            730,
+            708
+        ]
+    },
+    "537": {
+        "answer": 19,
+        "equation": "result = (QL[0] - QL[1]) - QL[1]",
+        "QL": [
+            31,
+            6
+        ]
+    },
+    "538": {
+        "answer": 5.0,
+        "equation": "var0 = QL[0] - QL[1]\nvar1 = QL[0] - QL[2]\nresult = abs(var0 - var1)",
+        "QL": [
+            10.85,
+            8.46,
+            3.46
+        ]
+    },
+    "539": {
+        "answer": "유나",
+        "equation": "if QL[0] * QL[1] + QL[2] * QL[3] > QL[4] * QL[5] + QL[6] * QL[7]:\n    result = NL[10]\nelse:\n    result = NL[8]",
+        "QL": [
+            100,
+            2,
+            10,
+            15,
+            100,
+            3,
+            1,
+            22
+        ]
+    },
+    "540": {
+        "answer": "호석",
+        "equation": "if QL[0] > QL[1]:\n    result = NL[7]\nelse:\n    result = NL[6]",
+        "QL": [
+            3496,
+            4100
+        ]
+    },
+    "541": {
+        "answer": 160,
+        "equation": "var0 = const0\nvar1 = list(range(QL[0]+const1, QL[1]))\nfor var2 in var1:\n    if (var2 // const10) % const10:\n        var0 += const1\nresult = var0",
+        "QL": [
+            9500,
+            9680,
+            5
+        ]
+    },
+    "542": {
+        "answer": "유나",
+        "equation": "if QL[0] > QL[1]:\n    result = NL[3]\nelse:\n    result = NL[10]",
+        "QL": [
+            9,
+            11
+        ]
+    },
+    "543": {
+        "answer": "민영",
+        "equation": "if QL[0] > QL[1] and QL[0] > QL[2]:\n    result = NL[7]\nelif QL[1] > QL[0] and QL[1] > QL[2]:\n    result = NL[10]\nelif QL[2] > QL[0] and QL[2] > QL[1]:\n    result = NL[2]",
+        "QL": [
+            22,
+            13,
+            9
+        ]
+    },
+    "544": {
+        "answer": 4,
+        "equation": "result = abs((QL[0] + QL[2] )-(QL[1] - QL[2]))",
+        "QL": [
+            248,
+            274,
+            15
+        ]
+    }
+}
